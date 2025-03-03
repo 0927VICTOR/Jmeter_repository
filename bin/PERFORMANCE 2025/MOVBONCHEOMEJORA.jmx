@@ -6856,6 +6856,49 @@ oï¿½p&#x1f;WÝ˜&apos;&#x8d;ï¿½};(/	e&#x1e;ï¿½&#x11;ï¿½)	aï¿½ï¿½ï¿½-x&#x8;ï¿½Gï¿½ï
         <boolProp name="exclude_checkbox_state">false</boolProp>
       </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
       <hashTree/>
+      <BackendListener guiclass="BackendListenerGui" testclass="BackendListener" testname="Backend Listener" enabled="true">
+        <elementProp name="arguments" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" enabled="true">
+          <collectionProp name="Arguments.arguments">
+            <elementProp name="testName" elementType="Argument">
+              <stringProp name="Argument.name">testName</stringProp>
+              <stringProp name="Argument.value">jmeter</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="connectionString" elementType="Argument">
+              <stringProp name="Argument.name">connectionString</stringProp>
+              <stringProp name="Argument.value">InstrumentationKey=86fac17b-0f9b-4e43-be51-a1064c523c21;IngestionEndpoint=https://eastus2-3.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus2.livediagnostics.monitor.azure.com/;ApplicationId=41625407-7996-48b0-bd1a-dbb7d1d79823</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="liveMetrics" elementType="Argument">
+              <stringProp name="Argument.name">liveMetrics</stringProp>
+              <stringProp name="Argument.value">true</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="samplersList" elementType="Argument">
+              <stringProp name="Argument.name">samplersList</stringProp>
+              <stringProp name="Argument.value">.*</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="useRegexForSamplerList" elementType="Argument">
+              <stringProp name="Argument.name">useRegexForSamplerList</stringProp>
+              <stringProp name="Argument.value">true</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="logResponseData" elementType="Argument">
+              <stringProp name="Argument.name">logResponseData</stringProp>
+              <stringProp name="Argument.value">OnFailure</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="logSampleData" elementType="Argument">
+              <stringProp name="Argument.name">logSampleData</stringProp>
+              <stringProp name="Argument.value">OnFailure</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+          </collectionProp>
+        </elementProp>
+        <stringProp name="classname">io.github.adrianmo.jmeter.backendlistener.azure.AzureBackendClient</stringProp>
+      </BackendListener>
+      <hashTree/>
       <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.HitsPerSecondGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Hits per Second" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
