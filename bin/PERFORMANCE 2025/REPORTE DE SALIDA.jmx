@@ -38,7 +38,7 @@
       </CookieManager>
       <hashTree/>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group">
-        <intProp name="ThreadGroup.num_threads">40</intProp>
+        <intProp name="ThreadGroup.num_threads">50</intProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
@@ -6561,6 +6561,49 @@ Qï¿½Gï¿½ï¿½!ï¿½y&#x15;&#x13;Nï¿½ï¿½ï¿½ß¸&#x12;ï¿½ï¿½&#x16;S&apos;ï¿½Nï¿½L&#x18;ï
             </objProp>
             <stringProp name="filename"></stringProp>
           </ResultCollector>
+          <hashTree/>
+          <BackendListener guiclass="BackendListenerGui" testclass="BackendListener" testname="Backend Listener">
+            <elementProp name="arguments" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="testName" elementType="Argument">
+                  <stringProp name="Argument.name">testName</stringProp>
+                  <stringProp name="Argument.value">qaperformance </stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+                <elementProp name="connectionString" elementType="Argument">
+                  <stringProp name="Argument.name">connectionString</stringProp>
+                  <stringProp name="Argument.value">InstrumentationKey=86fac17b-0f9b-4e43-be51-a1064c523c21;IngestionEndpoint=https://eastus2-3.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus2.livediagnostics.monitor.azure.com/;ApplicationId=41625407-7996-48b0-bd1a-dbb7d1d79823</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+                <elementProp name="liveMetrics" elementType="Argument">
+                  <stringProp name="Argument.name">liveMetrics</stringProp>
+                  <stringProp name="Argument.value">true</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+                <elementProp name="samplersList" elementType="Argument">
+                  <stringProp name="Argument.name">samplersList</stringProp>
+                  <stringProp name="Argument.value">.*</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+                <elementProp name="useRegexForSamplerList" elementType="Argument">
+                  <stringProp name="Argument.name">useRegexForSamplerList</stringProp>
+                  <stringProp name="Argument.value">true</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+                <elementProp name="logResponseData" elementType="Argument">
+                  <stringProp name="Argument.name">logResponseData</stringProp>
+                  <stringProp name="Argument.value">OnFailure</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+                <elementProp name="logSampleData" elementType="Argument">
+                  <stringProp name="Argument.name">logSampleData</stringProp>
+                  <stringProp name="Argument.value">OnFailure</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="classname">io.github.adrianmo.jmeter.backendlistener.azure.AzureBackendClient</stringProp>
+          </BackendListener>
           <hashTree/>
         </hashTree>
         <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report">
