@@ -45,13 +45,13 @@
         </elementProp>
       </ThreadGroup>
       <hashTree>
-        <RecordingController guiclass="RecordController" testclass="RecordingController" testname="MODULO SEGUIMIENTO DE ORDENES"/>
+        <RecordingController guiclass="RecordController" testclass="RecordingController" testname="MODULO SEGUIMIENTO DE ORDENES" enabled="true"/>
         <hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="LOGIN Y COMPLEMENTOS DE LA VISTA">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="LOGIN Y COMPLEMENTOS DE LA VISTA" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
           </TransactionController>
           <hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-63">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-63" enabled="true">
               <stringProp name="HTTPSampler.domain">webflowersgrchia.azurewebsites.net</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -119,7 +119,7 @@
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-64">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-64" enabled="true">
               <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -203,7 +203,7 @@
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-66">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-66" enabled="true">
               <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -285,7 +285,7 @@
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-72">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-72" enabled="true">
               <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -371,7 +371,7 @@
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-74">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-74" enabled="true">
               <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -734,7 +734,7 @@ Kï¿½4B)&#xf;ï¿½ï¿½ï¿½36ï¿½I^&#xd;
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-78">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-78" enabled="true">
               <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -956,7 +956,7 @@ uï¿½&#x6;&#x1e;iï¿½ï¿½&#xe;ï¿½ï¿½xï¿½lï¿½|?ï¿½J^ï¿½&#x1f;&#x1c;&#x12;.z&#x6;&#xc
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-82">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-82" enabled="true">
               <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -1321,7 +1321,7 @@ aQï¿½]&#x1f;&#x8;ï¿½&#x1b;CDï¿½ï¿½ï¿½ï¿½ï¿½ï¿½z&#xc;ï¿½&#x4;ï¿½?ï¿½r}S ï¿½ï¿½fï¿
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-91">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-91" enabled="true">
               <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -1538,7 +1538,7 @@ f&#x17;&#x1d;&amp;ßŒfï¿½i+ï¿½ï¿½&#x2;ï¿½ï¿½ï¿½Ô‘W`ï¿½\ï¿½%&amp;&#x7;ï¿½;ï¿½ï¿½Eâ
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-94">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-94" enabled="true">
               <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -1639,7 +1639,7 @@ pï¿½ï¿½Vï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½:ï¿½ï¿½ï¿½tï¿½ï¿½i`ï¿½YÎ„MKÉ§ï¿½,qMï¿½ï¿½4ï¿½ï¿½ï¿½ï¿
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-95">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-95" enabled="true">
               <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -1731,7 +1731,7 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-96">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-96" enabled="true">
               <stringProp name="TestPlan.comments">Detected the start of a redirect chain</stringProp>
               <stringProp name="HTTPSampler.domain">webflowersgrchia.azurewebsites.net</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
@@ -1896,7 +1896,7 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-97">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-97" enabled="true">
               <stringProp name="HTTPSampler.domain">webflowersgrchia.azurewebsites.net</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -1961,11 +1961,11 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="COMPLEMENTOS DE LA VISTA Y REDIRECCIONAMIENTO">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="COMPLEMENTOS DE LA VISTA Y REDIRECCIONAMIENTO" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
           </TransactionController>
           <hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-129">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-129" enabled="true">
               <stringProp name="HTTPSampler.domain">fonts.googleapis.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -2104,7 +2104,7 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-131">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-131" enabled="true">
               <stringProp name="HTTPSampler.domain">webflowersgrchia.azurewebsites.net</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -2164,7 +2164,7 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-134">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-134" enabled="true">
               <stringProp name="HTTPSampler.domain">webflowersgrchia.azurewebsites.net</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -2224,7 +2224,7 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-187">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-187" enabled="true">
               <stringProp name="HTTPSampler.domain">fonts.gstatic.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -2281,11 +2281,11 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="COMPLEMENTOS DE LA VISTA Y REDIRECCIONAMIENTO AL MÃ“DULO SEGUIMIENTO DE ORDENES">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="COMPLEMENTOS DE LA VISTA Y REDIRECCIONAMIENTO AL MÃ“DULO SEGUIMIENTO DE ORDENES" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
           </TransactionController>
           <hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-195">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-195" enabled="true">
               <stringProp name="HTTPSampler.domain">fonts.gstatic.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -2349,7 +2349,7 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-198">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-198" enabled="true">
               <stringProp name="HTTPSampler.domain">azghtnotifications.azurewebsites.net</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -2576,7 +2576,7 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-202">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-202" enabled="true">
               <stringProp name="HTTPSampler.domain">wfeventhub.azurewebsites.net</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -2678,7 +2678,7 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-203">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-203" enabled="true">
               <stringProp name="HTTPSampler.domain">wfeventhub.azurewebsites.net</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -2780,7 +2780,7 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="MÃ“DULO SEGUIMIENTO DE ORDEDES">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="MÃ“DULO SEGUIMIENTO DE ORDEDES" enabled="true">
               <stringProp name="HTTPSampler.domain">webflowerssupplychain-goldv20254601.azurewebsites.net</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -2887,7 +2887,7 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-211">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-211" enabled="true">
               <stringProp name="HTTPSampler.domain">webflowers.service.signalr.net</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -3039,7 +3039,7 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-214">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-214" enabled="true">
               <stringProp name="HTTPSampler.domain">dc.services.visualstudio.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -3107,7 +3107,7 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-215">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-215" enabled="true">
               <stringProp name="HTTPSampler.domain">dc.services.visualstudio.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -3175,7 +3175,7 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-216">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-216" enabled="true">
               <stringProp name="HTTPSampler.domain">dc.services.visualstudio.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -3239,7 +3239,7 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-217">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-217" enabled="true">
               <stringProp name="HTTPSampler.domain">dc.services.visualstudio.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -3303,7 +3303,7 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-218">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-218" enabled="true">
               <stringProp name="HTTPSampler.domain">dc.services.visualstudio.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -3371,7 +3371,7 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-220">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-220" enabled="true">
               <stringProp name="HTTPSampler.domain">dc.services.visualstudio.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -3436,11 +3436,11 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="COMPLEMENTOS DE LA VISTA Y OBTENIENDO APIS">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="COMPLEMENTOS DE LA VISTA Y OBTENIENDO APIS" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
           </TransactionController>
           <hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-252">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-252" enabled="true">
               <stringProp name="HTTPSampler.domain">webflowerssupplychain-goldv20254601.azurewebsites.net</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -3500,7 +3500,7 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-253">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-253" enabled="true">
               <stringProp name="HTTPSampler.domain">aus5.mozilla.org</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -3544,7 +3544,7 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-254">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-254" enabled="true">
               <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -3627,7 +3627,7 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-255">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-255" enabled="true">
               <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -3714,7 +3714,7 @@ rï¿½:&apos;ï¿½&#xf;ï¿½-eï¿½ï¿½&#x1;&#x2;+![,3*ï¿½,Mï¿½bï¿½Zï¿½&#x8;ï¿½#ï¿½.&#x16
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-256">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-256" enabled="true">
               <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -3874,7 +3874,7 @@ VM&#x7;6&#x10;ï¿½ï¿½&#xf;1Tï¿½2&apos; ï¿½ï¿½&#xf;&#x1e;&#x5;eX9ï¿½Y&amp;_*&#x14;
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-258">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-258" enabled="true">
               <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -3962,7 +3962,7 @@ h!ï¿½&#x12;{ï¿½v{ï¿½iï¿½|yZï¿½xï¿½ï¿½ï¿½ï¿½d&#x1b;ï¿½ï¿½pï¿½A	ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-260">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-260" enabled="true">
               <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -4048,7 +4048,7 @@ X&#x17;lÃ‚ï¿½&#x6;ï¿½Ô’y	ï¿½jmï¿½@ï¿½ï¿½cï¿½oQï¿½ï¿½ï¿½X&#x5;ï¿½ï¿½,&#x1c;[&#x12
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-261">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-261" enabled="true">
               <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -4140,7 +4140,7 @@ xpï¿½ï¿½&#x1b;	ï¿½Kï¿½~Â¦ï¿½=ï¿½Y#JXSï¿½ï¿½ï¿½6ï¿½ï¿½ï¿½ï¿½9ï¿½ ï¿½Mï¿½q&#x1d;,ï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-259">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-259" enabled="true">
               <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -4227,7 +4227,7 @@ I&#x11;-&#x17;ï¿½xï¿½ï¿½eï¿½ï¿½Sï¿½ï¿½ï¿½dï¿½ï¿½Òï¿½ï¿½s&#x1c;oï¿½Ï¯ï¿½_&#x10;&
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-262">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-262" enabled="true">
               <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -4320,7 +4320,7 @@ $5#ï¿½Û„pï¿½&#x0;g[sï¿½ï¿½ï¿½Bï¿½ï¿½BWï¿½R%wï¿½2ï¿½ï¿½&#x8;ï¿½ï¿½opï¿½ï¿½ï¿½Jï¿½
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-263">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-263" enabled="true">
               <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -4408,7 +4408,7 @@ FRï¿½ï¿½|&apos;|f|ï¿½ rmU	ï¿½7&#x12;ï¿½ï¿½ï¿½&#xb;ï¿½&#x1d;&#x12;ï¿½	ï¿½UcZ&#x85
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-264">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-264" enabled="true">
               <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -4498,7 +4498,7 @@ Wï¿½ï¿½&#xe;&gt;ï¿½Ç‹ï¿½&#x7f;iï¿½d&#x18;9ï¿½ï¿½!ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½x&#x1b;ï¿½I&#
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-265">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-265" enabled="true">
               <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -4592,7 +4592,7 @@ Lï¿½!ï¿½h&#x1a;ï¿½ï¿½/+ï¿½JC&#x18;ï¿½&#x1b;qd5UMzï¿½ï¿½6&lt;ï¿½&lt;ï¿½&#x6;ï¿½&#
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-266">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-266" enabled="true">
               <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -4870,7 +4870,7 @@ Y!r&#x14;ï¿½W&#x12;&#xd;
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-269">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-269" enabled="true">
               <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -4953,7 +4953,7 @@ Zo(KPZï¿½&#x17;Msï¿½:&#x10;ï¿½h&#x4;ï¿½&#xb;ï¿½%ï¿½&#x19;ï¿½ï¿½&#x2;&#x1d;ï¿½3&#
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-268">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-268" enabled="true">
               <stringProp name="HTTPSampler.domain">webflowers.azure-api.net</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -5021,7 +5021,7 @@ Zo(KPZï¿½&#x17;Msï¿½:&#x10;ï¿½h&#x4;ï¿½&#xb;ï¿½%ï¿½&#x19;ï¿½ï¿½&#x2;&#x1d;ï¿½3&#
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-271">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-271" enabled="true">
               <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -5111,7 +5111,7 @@ Pï¿½9&#x14;\ï¿½ï¿½{ï¿½~ï¿½ï¿½ï¿½.ï¿½ï¿½&gt;&amp;ï¿½ï¿½_ï¿½Gï¿½(ï¿½ï¿½Wï¿½ï¿½~:ï¿
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-272">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-272" enabled="true">
               <stringProp name="HTTPSampler.domain">webflowers.azure-api.net</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -5179,7 +5179,7 @@ Pï¿½9&#x14;\ï¿½ï¿½{ï¿½~ï¿½ï¿½ï¿½.ï¿½ï¿½&gt;&amp;ï¿½ï¿½_ï¿½Gï¿½(ï¿½ï¿½Wï¿½ï¿½~:ï¿
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-274">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-274" enabled="true">
               <stringProp name="HTTPSampler.domain">fonts.gstatic.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -5235,7 +5235,7 @@ Pï¿½9&#x14;\ï¿½ï¿½{ï¿½~ï¿½ï¿½ï¿½.ï¿½ï¿½&gt;&amp;ï¿½ï¿½_ï¿½Gï¿½(ï¿½ï¿½Wï¿½ï¿½~:ï¿
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-273">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-273" enabled="true">
               <stringProp name="HTTPSampler.domain">fonts.gstatic.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -5291,7 +5291,7 @@ Pï¿½9&#x14;\ï¿½ï¿½{ï¿½~ï¿½ï¿½ï¿½.ï¿½ï¿½&gt;&amp;ï¿½ï¿½_ï¿½Gï¿½(ï¿½ï¿½Wï¿½ï¿½~:ï¿
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-275">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-275" enabled="true">
               <stringProp name="HTTPSampler.domain">content-signature-2.cdn.mozilla.net</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -5327,7 +5327,7 @@ Pï¿½9&#x14;\ï¿½ï¿½{ï¿½~ï¿½ï¿½ï¿½.ï¿½ï¿½&gt;&amp;ï¿½ï¿½_ï¿½Gï¿½(ï¿½ï¿½Wï¿½ï¿½~:ï¿
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-277">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-277" enabled="true">
               <stringProp name="HTTPSampler.domain">webflowersinstanceservices.azurefd.net</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -5393,7 +5393,7 @@ Pï¿½9&#x14;\ï¿½ï¿½{ï¿½~ï¿½ï¿½ï¿½.ï¿½ï¿½&gt;&amp;ï¿½ï¿½_ï¿½Gï¿½(ï¿½ï¿½Wï¿½ï¿½~:ï¿
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-276">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-276" enabled="true">
               <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -5513,7 +5513,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-278">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-278" enabled="true">
               <stringProp name="HTTPSampler.domain">webflowers.azure-api.net</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -5581,7 +5581,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-279">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-279" enabled="true">
               <stringProp name="HTTPSampler.domain">webflowers.azure-api.net</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -5646,7 +5646,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="COMPLEMENTOS DE LA VISTA Y OBTENIENDO APIS">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="COMPLEMENTOS DE LA VISTA Y OBTENIENDO APIS" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
           </TransactionController>
           <hashTree>
@@ -5745,7 +5745,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-280">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-280" enabled="true">
               <stringProp name="HTTPSampler.domain">webflowers.service.signalr.net</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -5903,7 +5903,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-282">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-282" enabled="true">
               <stringProp name="HTTPSampler.domain">webflowers.azure-api.net</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -5971,7 +5971,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-283">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-283" enabled="true">
               <stringProp name="HTTPSampler.domain">webflowers.azure-api.net</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -6045,7 +6045,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-284">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-284" enabled="true">
               <stringProp name="HTTPSampler.domain">webflowers.azure-api.net</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -6119,7 +6119,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-285">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-285" enabled="true">
               <stringProp name="HTTPSampler.domain">webflowers.azure-api.net</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -6188,7 +6188,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="CONSULTA POR LOS FILTROS SELECCIONADOS">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="CONSULTA POR LOS FILTROS SELECCIONADOS" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
           </TransactionController>
           <hashTree>
@@ -6205,14 +6205,14 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
                 <collectionProp name="Arguments.arguments">
                   <elementProp name="" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                    <stringProp name="Argument.value">{&quot;importer&quot;:[&quot;QU&quot;],&quot;customer&quot;:&quot;&quot;,&quot;productcode&quot;:null,&quot;orderreference&quot;:null,&quot;datefrom&quot;:&quot;2025-12-01&quot;,&quot;dateto&quot;:&quot;2025-12-10&quot;,&quot;mawbs&quot;:[],&quot;hawbs&quot;:[],&quot;grower&quot;:null}</stringProp>
+                    <stringProp name="Argument.value">{&quot;importer&quot;:[&quot;QU&quot;],&quot;customer&quot;:&quot;&quot;,&quot;productcode&quot;:null,&quot;orderreference&quot;:null,&quot;datefrom&quot;:&quot;2025-12-01&quot;,&quot;dateto&quot;:&quot;2025-12-18&quot;,&quot;mawbs&quot;:[],&quot;hawbs&quot;:[],&quot;grower&quot;:null}</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
                   </elementProp>
                 </collectionProp>
               </elementProp>
             </HTTPSamplerProxy>
             <hashTree>
-              <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion">
+              <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
                 <collectionProp name="Asserion.test_strings"/>
                 <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
                 <stringProp name="Assertion.custom_message"></stringProp>
@@ -6273,7 +6273,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
           </hashTree>
         </hashTree>
       </hashTree>
-      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree">
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -6308,7 +6308,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
         <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
-      <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report">
+      <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -6345,7 +6345,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
         <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
-      <BackendListener guiclass="BackendListenerGui" testclass="BackendListener" testname="Backend Listener">
+      <BackendListener guiclass="BackendListenerGui" testclass="BackendListener" testname="Backend Listener" enabled="true">
         <elementProp name="arguments" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments">
           <collectionProp name="Arguments.arguments">
             <elementProp name="testName" elementType="Argument">
@@ -6388,7 +6388,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
         <stringProp name="classname">io.github.adrianmo.jmeter.backendlistener.azure.AzureBackendClient</stringProp>
       </BackendListener>
       <hashTree/>
-      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ThreadsStateOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Active Threads Over Time">
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ThreadsStateOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Active Threads Over Time" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -6433,7 +6433,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
         <boolProp name="exclude_checkbox_state">false</boolProp>
       </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
       <hashTree/>
-      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.BytesThroughputOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Bytes Throughput Over Time">
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.BytesThroughputOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Bytes Throughput Over Time" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -6478,7 +6478,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
         <boolProp name="exclude_checkbox_state">false</boolProp>
       </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
       <hashTree/>
-      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.HitsPerSecondGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Hits per Second">
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.HitsPerSecondGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Hits per Second" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -6523,7 +6523,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
         <boolProp name="exclude_checkbox_state">false</boolProp>
       </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
       <hashTree/>
-      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ResponseTimesOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Response Times Over Time">
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ResponseTimesOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Response Times Over Time" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -6568,7 +6568,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
         <boolProp name="exclude_checkbox_state">false</boolProp>
       </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
       <hashTree/>
-      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ResponseCodesPerSecondGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Response Codes per Second">
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ResponseCodesPerSecondGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Response Codes per Second" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -6613,7 +6613,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
         <boolProp name="exclude_checkbox_state">false</boolProp>
       </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
       <hashTree/>
-      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.LatenciesOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Response Latencies Over Time">
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.LatenciesOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Response Latencies Over Time" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
