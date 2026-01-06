@@ -45,7 +45,7 @@
         </elementProp>
       </ThreadGroup>
       <hashTree>
-        <RecordingController guiclass="RecordController" testclass="RecordingController" testname="MODULO SEGUIMIENTO DE ORDENES" enabled="true"/>
+        <RecordingController guiclass="RecordController" testclass="RecordingController" testname="MODULO SEGUIMIENTO DE ORDENES"/>
         <hashTree>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="LOGIN Y COMPLEMENTOS DE LA VISTA" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -1965,7 +1965,7 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
             <boolProp name="TransactionController.includeTimers">false</boolProp>
           </TransactionController>
           <hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-129" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-129">
               <stringProp name="HTTPSampler.domain">fonts.googleapis.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -2044,7 +2044,7 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-130" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-130">
               <stringProp name="HTTPSampler.domain">webflowersgrchia.azurewebsites.net</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -2104,7 +2104,7 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-131" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-131">
               <stringProp name="HTTPSampler.domain">webflowersgrchia.azurewebsites.net</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -2164,7 +2164,7 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-134" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-134">
               <stringProp name="HTTPSampler.domain">webflowersgrchia.azurewebsites.net</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -2224,7 +2224,7 @@ vï¿½ï¿½WX,ï¿½ï¿½,ï¿½ï¿½ï¿½BJ3F[ï¿½ï¿½ï¿½ï¿½1ï¿½&#xf;&#xf;&gt;ï¿½qË½?Yrï¿½&apos;ï
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-187" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-187">
               <stringProp name="HTTPSampler.domain">fonts.gstatic.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -6188,7 +6188,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="CONSULTA POR LOS FILTROS SELECCIONADOS" enabled="true">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="CONSULTA POR LOS FILTROS SELECCIONADOS">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
           </TransactionController>
           <hashTree>
@@ -6205,7 +6205,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
                 <collectionProp name="Arguments.arguments">
                   <elementProp name="" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                    <stringProp name="Argument.value">{&quot;importer&quot;:[&quot;QU&quot;],&quot;customer&quot;:&quot;&quot;,&quot;productcode&quot;:null,&quot;orderreference&quot;:null,&quot;datefrom&quot;:&quot;2025-12-01&quot;,&quot;dateto&quot;:&quot;2025-12-18&quot;,&quot;mawbs&quot;:[],&quot;hawbs&quot;:[],&quot;grower&quot;:null}</stringProp>
+                    <stringProp name="Argument.value">{&quot;importer&quot;:[&quot;QU&quot;],&quot;customer&quot;:&quot;&quot;,&quot;productcode&quot;:null,&quot;orderreference&quot;:null,&quot;datefrom&quot;:&quot;2025-12-25&quot;,&quot;dateto&quot;:&quot;2026-01-04&quot;,&quot;mawbs&quot;:[],&quot;hawbs&quot;:[],&quot;grower&quot;:null}</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
                   </elementProp>
                 </collectionProp>
@@ -6273,7 +6273,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
           </hashTree>
         </hashTree>
       </hashTree>
-      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -6308,7 +6308,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
         <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
-      <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
+      <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -6388,7 +6388,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
         <stringProp name="classname">io.github.adrianmo.jmeter.backendlistener.azure.AzureBackendClient</stringProp>
       </BackendListener>
       <hashTree/>
-      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ThreadsStateOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Active Threads Over Time" enabled="true">
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ThreadsStateOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Active Threads Over Time">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -6433,7 +6433,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
         <boolProp name="exclude_checkbox_state">false</boolProp>
       </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
       <hashTree/>
-      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.BytesThroughputOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Bytes Throughput Over Time" enabled="true">
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.BytesThroughputOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Bytes Throughput Over Time">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -6478,7 +6478,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
         <boolProp name="exclude_checkbox_state">false</boolProp>
       </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
       <hashTree/>
-      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.HitsPerSecondGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Hits per Second" enabled="true">
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.HitsPerSecondGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Hits per Second">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -6523,7 +6523,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
         <boolProp name="exclude_checkbox_state">false</boolProp>
       </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
       <hashTree/>
-      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ResponseTimesOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Response Times Over Time" enabled="true">
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ResponseTimesOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Response Times Over Time">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -6568,7 +6568,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
         <boolProp name="exclude_checkbox_state">false</boolProp>
       </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
       <hashTree/>
-      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ResponseCodesPerSecondGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Response Codes per Second" enabled="true">
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ResponseCodesPerSecondGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Response Codes per Second">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -6613,7 +6613,7 @@ _aï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½vÂ¯Hï¿½ß¦ï¿½v&#x7f;ï¿½ï¿½_Bd_ï¿½h&#x3;ï¿½dï¿½&#xf;ï¿½mï¿½Mï
         <boolProp name="exclude_checkbox_state">false</boolProp>
       </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
       <hashTree/>
-      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.LatenciesOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Response Latencies Over Time" enabled="true">
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.LatenciesOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Response Latencies Over Time">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
