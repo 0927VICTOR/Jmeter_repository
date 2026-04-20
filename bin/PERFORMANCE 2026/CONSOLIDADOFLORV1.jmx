@@ -1,0 +1,1957 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.3">
+  <hashTree>
+      
+          </hashTree>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+          </TransactionController>
+          <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-280">
+              <stringProp name="HTTPSampler.domain">webflowerslm.azurewebsites.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/(S(hcyfeo3qljjga2q14vihicgn))/Default_new.aspx</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-281">
+              <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
+              <stringProp name="HTTPSampler.path">/submit/firefox-desktop/messaging-system/1/87abd462-7005-4210-b0cd-eeb66aa6a13f</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">&#x1f;ï¿½&#x8;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;ï¿½ï¿½Xï¿½nï¿½6&#x10;ï¿½&#x17;&#x1;}ï¿½!É¶ï¿½ï¿½ï¿½ï¿½ï¿½Ã¢WlS&#x14;}2(ï¿½ï¿½ï¿½Pï¿½ï¿½ï¿½â¸‹ï¿½{g(ï¿½vb&apos;Qï¿½&#x5;&#x12;&apos;&#x16;ï¿½gï¿½3g.Ô·ï¿½Uï¿½fï¿½ï¿½ï¿½$ï¿½oï¿½ï¿½_ï¿½U6ï¿½&gt;$ï¿½3ï¿½ï¿½^ï¿½2Y%yï¿½&#x17;ï¿½fï¿½^]ï¿½Wï¿½iï¿½ï¿½N&apos;iï¿½B:_ï¿½iï¿½!ï¿½ï¿½xBtï¿½ï¿½gï¿½t1;ï¿½&#x7b5;Ò¢hï¿½&#x1d;)ï¿½ï¿½ï¿½&#x383;&#x12;`ï¿½g^ï¿½&#x6;ä­´{ï¿½ï¿½`ï¿½ SZï¿½ï¿½-bï¿½ï¿½5:ï¿½xï¿½hï¿½ï¿½[ï¿½Ú¨ï¿½ï¿½&#x1c;Bhm:ï¿½ï¿½ï¿½&#x7f;Hï¿½rï¿½ï¿½&#x12;dCOI!ï¿½ï¿½&lt;Jyï¿½e-=ê¨Œï¿½JYYï¿½;&#x10;ï¿½ï¿½xï¿½Â­bï¿½ï¿½&#x1d;ï¿½ï¿½nï¿½&#x0;^2~ÓµPI4ï¿½Jï¿½X&amp;:ï¿½&#xf;ï¿½ï¿½ï¿½Þ¢&#x10;ï¿½;R&#x3;ï¿½nï¿½ï¿½ï¿½Öï¿½&#xd;
+&#x18;&#xf;Nï¿½&#x1;ï¿½bï¿½ï¿½&#xe;`ï¿½xï¿½A&#x1f;9ï¿½p	ï¿½ï¿½ï¿½ï¿½?&#x1;ï¿½qn:ï¿½&#x16;ï¿½ï¿½meA&#x13;ï¿½Ì¹ï¿½ï¿½ï¿½ï¿½Fï¿½ï¿½%ï¿½ï¿½&#x1c;gï¿½ï¿½rï¿½k&apos;ï¿½ï¿½Û‹ï¿½&#x1b;c6ï¿½?-ï¿½ï¿½ï¿½Qï¿½L&#x1;ï¿½2_&#x1a;ï¿½}#ï¿½uuÍ¬ï¿½ï¿½ï¿½q}ï¿½&#x89;o&#xe;ï¿½,ï¿½@Ùˆ&#x3;ï¿½ï¿½Sï¿½|ï¿½a$ï¿½#ï¿½-rï¿½ï¿½ï¿½&#x16;ï¿½5;zï¿½ï¿½ï¿½&#xd; .ï¿½ï¿½ìœ´&#x18;&#x19;ï¿½?ï¿½6&#xd; Ck#ï¿½WHï¿½&#x7;F=!2ï¿½ï¿½ï¿½yï¿½Dï¿½ ÙŽï¿½&lt;,?ï¿½ï¿½	ï¿½&#xc;ï¿½ï¿½tg&#x7;&#x17;ï¿½:CD&#x18;&quot;ï¿½ï¿½Fï¿½&#x10;ï¿½Sï¿½{Vï¿½ï¿½)Ï·X&#x18;q_ï¿½&#x7f;)ï¿½.l&#x19;I&#x1f;ï¿½/d&#x1;&#x13;ï¿½Jï¿½ï¿½A&#x16;&#x10;z&#xb;ï¿½B&#x1f;}ï¿½Ðƒï¿½}ï¿½\ï¿½ALA&#x7;Tï¿½ï¿½È’ï¿½ï¿½ï¿½!&#x1e;Td&amp;Ú£ï¿½ï¿½9)`&apos;Kï¿½&lt;ï¿½&apos;ï¿½Mï¿½ï¿½ï¿½6&#x7;MDDmï¿½ï¿½ï¿½aï¿½&#x1f;ï¿½ï¿½Qï¿½&#x1b;ï¿½&#xb;ï¿½ï¿½fË”*_ï¿½gY1]ï¿½3b|&lt;ï¿½%%ï¿½ï¿½Uï¿½ï¿½ï¿½ï¿½ijï¿½4&#x2;nY#49/&#x4;ï¿½8PH0ï¿½ï¿½g|ï¿½.ï¿½wï¿½&#x1a;ï¿½ï¿½&#xd;
+&#x1d;ï¿½ï¿½Î›ï¿½Wï¿½\Ê¼ï¿½pï¿½Uï¿½ï¿½Kï¿½ï¿½@ï¿½ï¿½ï¿½ï¿½Hï¿½ï¿½%ï¿½Uï¿½ï¿½8]Xl&#x1b;ï¿½jï¿½&#x1;ï¿½:ï¿½T&#xe;Ðƒï¿½Uï¿½&lt;ï¿½&#x4;L&#x5;ï¿½ï¿½ï¿½ï¿½ï¿½&#x8;0Nï¿½6&#x18;&#x15;/m&#xd;[ï¿½&#x5;u^&#x8;Cï¿½&#x6;&#xb;&#x1e;ï¿½*Vï¿½&#x7;ï¿½BjECï¿½ï¿½ï¿½&#x17;ï¿½ï¿½ï¿½ï¿½pF&#x1d;ï¿½&#x18;bï¿½&#x2;&#x5;ï¿½ï¿½cuï¿½ï¿½&#x14;ï¿½*ï¿½R×¢ï¿½ï¿½&#xf;ï¿½ï¿½ï¿½	&#x16;ï¿½ï¿½ï¿½8d&#x18;ï¿½&#xe;&lt;É¦Ó·&#x7;&#x11;ï¿½ï¿½&#x15;&#x1e;ï¿½rï¿½&#x1d;&amp;ï¿½ï¿½ï¿½Ç±&#xe;&#x1b;Zï¿½ï¿½&#x13;@6aï¿½ï¿½+]s:ï¿½ï¿½&#x11;Óš&amp;ï¿½ï¿½wï¿½ï¿½ï¿½=ï¿½&#xf;ï¿½ï¿½ï¿½ï¿½xXï¿½ï¿½gï¿½uï¿½(4&#x1e;ï¿½2&#x16;Zï¿½^Ht&#x1c;rï¿½ï¿½&#x1e;ï¿½ï¿½&#x19;&#x17;ï¿½Kï¿½ï¿½nï¿½xï¿½ï¿½Ü¡&#x4;U&#xd;
+Kw&#x1c;ï¿½ï¿½ï¿½&#x4;ï¿½Aï¿½zï¿½C&#x4;ï¿½~ï¿½8&#xb;ï¿½Xï¿½bï¿½&#x0;ï¿½Vyï¿½jGï¿½Pï¿½P&#x1c;ï¿½ï¿½ï¿½dï¿½vï¿½bï¿½ï¿½kE0[ï¿½ï¿½8{h&#x1d;ï¿½I-qï¿½hï¿½ï¿½ï¿½q;1ï¿½Æ±ï¿½ï¿½Õµï¿½ï¿½H+kï¿½ï¿½ï¿½&#x16;ï¿½&#x2;ï¿½&#xb;ï¿½ï¿½ï¿½=s7%ï¿½}ï¿½ï¿½Mï¿½ï¿½pï¿½zfï¿½~ï¿½&#x4;&gt;Ë»ï¿½&#xe;Pï¿½)ï¿½ï¿½ï¿½1ï¿½fï¿½&#x18;?N!ï¿½&#x1d;&#xb;x&#x5c8;&gt;&#xb;#ï¿½ï¿½&#x12;hIï¿½K`&#x3;ï¿½ï¿½ï¿½Ö¡&#x8;&#x1c;gï¿½ï¿½E*ï¿½ï¿½Gï¿½2ï¿½&#xf;ï¿½ï¿½aï¿½EUa&#x14;V}ï¿½yc4ï¿½ï¿½ï¿½GGï¿½&#x6;Oï¿½&#xc;ï¿½&gt;&gt;ï¿½ï¿½5ï¿½&#xd;$&#xb;#ï¿½4Yï¿½ï¿½ï¿½p[?\Pï¿½NÜ¬ï¿½Niï¿½&#xc;ï¿½ï¿½ï¿½dï¿½&#x1c;!&#xd;&#x12;(ï¿½ï¿½ï¿½&#x1c;ï¿½+kï¿½5ï¿½&#x16;=Fï¿½Aï¿½&#xd;
+&gt;ï¿½k&#x11;v&#xf;Nï¿½&#x1c;&#x17;ï¿½Åºï¿½Eï¿½&#x1;3ï¿½S&#xb;ï¿½ï¿½&#x38b;ï¿½ï¿½Fï¿½ï¿½Poï¿½,ï¿½ï¿½Õ¾&#x1f;ï¿½È»&#xe;~ï¿½+&quot; ï¿½Zï¿½uï¿½JÏŠI:ï¿½p=ï¿½ï¿½)ï¿½ï¿½ï¿½jï¿½ï¿½&#x17;&#x7;ï¿½uï¿½ï¿½ï¿½Ïï¿½3	ï¿½hï¿½&#x5f6;k&#x6;aï¿½g&#xd;
+ï¿½&#x12;ï¿½3ï¿½Xï¿½#Roï¿½ï¿½ï¿½Rï¿½dï¿½ï¿½Eï¿½o3ï¿½ï¿½Vaï¿½b&#x7f;ï¿½ï¿½y&#xc;&#x3;ï¿½H?ï¿½ï¿½|ï¿½&#x18;ï¿½Cï¿½ï¿½IOß®&#x10;Ì™ï¿½æ§ï¿½cï¿½&gt;ï¿½^cï¿½ï¿½ï¿½aYï¿½ï¿½ï¿½ï¿½Z(h&#x18;2ï¿½Cvwï¿½&#xd;
+ï¿½|ï¿½&#x3;?ï¿½Ð›&#x18;ï¿½ï¿½ï¿½&#xe;ï¿½dï¿½49_ï¿½ï¿½T&#x16;&quot;ï¿½eï¿½&#xb;ï¿½&#x15;ï¿½+`Kï¿½_ï¿½ï¿½Jï¿½t6ï¿½ï¿½ï¿½ï¿½ï¿½&#x11;Fï¿½ï¿½ï¿½*Aï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½LVPï¿½ï¿½&#x12;fï¿½|&#x1;e.ï¿½Pe&#xb;^ï¿½Eï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½?&#x16;ï¿½.Ú†&#x17;&#x14;D;&#x6;ï¿½&#x1c;g;B9Cï¿½Oï¿½~ï¿½ï¿½ï¿½ï¿½ï¿½/ï¿½&#x7f;ï¿½ï¿½Ë¿ï¿½&#x7f;__ï¿½ï¿½ï¿½%ï¿½3&amp;ï¿½Iï¿½ï¿½V1U(&#x1d;0&#x3;ï¿½jï¿½ï¿½]ï¿½ï¿½&#x7f; {&#x1f;&lt;~ï¿½&#x1;;J&#x0;8ï¿½ï¿½ï¿½ï¿½&#xf;ï¿½ï¿½&#x7;Z&#x17;&#x13;&#x0;&#x0;</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-288">
+              <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
+              <stringProp name="HTTPSampler.path">/submit/firefox-desktop/messaging-system/1/4b45efc9-8ac4-4ef0-8910-7d4ba2e01dfa</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">&#x1f;ï¿½&#x8;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;ï¿½ï¿½XKoï¿½8&#x10;ï¿½/&#x2;ï¿½ï¿½&#x1d;Cï¿½mï¿½ï¿½qï¿½&#x1e;zï¿½S&#xd;
+ï¿½Ñ Hï¿½&amp;Lï¿½*&#x1f;~lï¿½ï¿½ï¿½&#x19;Jï¿½#qR%&#xd;ï¿½&apos;9ï¿½ï¿½|3Ôï¿½Uï¿½fï¿½ï¿½ï¿½$ï¿½&#x1f;ï¿½ï¿½ß“U6ï¿½?%ï¿½3ï¿½ï¿½^ï¿½2Y%yï¿½&#x17;ï¿½fï¿½&gt;|K&#x1f;Vï¿½ï¿½*ï¿½Mï¿½4ï¿½tï¿½Jï¿½ï¿½S&quot;&#x1b;ï¿½*ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½w$&#x10;ï¿½Ceï¿½ï¿½ï¿½&#xb;ï¿½&#x4;ï¿½I&#x1;&#x7;Y:å¥ƒl6ï¿½ÖšÚ€5Zï¿½ï¿½ï¿½i&#xd;ï¿½pï¿½e&lt;]Zï¿½ï¿½-J&#x1d;ï¿½ï¿½&#x5;&#x12;ï¿½-#&#x12;&#x7f;jIï¿½Fï¿½ep&#x3;ï¿½ï¿½ï¿½ï¿½OIeï¿½ ï¿½&#x11;ZB&#x1d;ï¿½Wï¿½ï¿½Wï¿½&#x1;ï¿½&#x19;ï¿½&#x15;ï¿½3ï¿½ o%ï¿½=ï¿½qR&#x1a;y&#x0;ï¿½Jï¿½ï¿½tï¿½ï¿½&#xd;V:&#xf;ï¿½ï¿½ï¿½ï¿½Zï¿½.gï¿½&#x14;ï¿½ï¿½\&#x2;ï¿½&#x1a;=Gï¿½ï¿½&quot;&#x7;ï¿½&#x11;ï¿½Uï¿½&lt;9ï¿½&#x4;&#x1a;ï¿½Ú»ï¿½z&#x6;ã¤…FU&#xd;
+&#x3;ï¿½Z&#x5;x&#xc;\ï¿½|ï¿½0oZï¿½bGï¿½ï¿½&#x19;yï¿½/ï¿½Zï¿½%C]ï¿½ï¿½ï¿½F~O&gt;N&gt;ï¿½ï¿½&#x4;&#xd;
+ï¿½0m&#x17;2ï¿½Iï¿½V&#xd;
+4ï¿½3+&#x1c;\Bï¿½&#x7f;&#x13;J&gt;Nï¿½^ï¿½ï¿½48ï¿½,ï¿½ï¿½eï¿½1fï¿½ï¿½es99ï¿½uv1ï¿½ï¿½ï¿½ï¿½I&#x10;ï¿½2_&#x1a;&#xf;.l6ï¿½0dï¿½Uï¿½Å¬r&#x7;ï¿½ï¿½ï¿½Rï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sddï¿½(+ï¿½\Jï¿½wï¿½ï¿½&#xd;
+9&#x6;+acï¿½ E? ï¿½ï¿½7ï¿½ï¿½ï¿½&#xf;ï¿½Hï¿½5Nm&#x1a;@thï¿½&#xd;
+ï¿½ï¿½ï¿½Y(ï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½AÒ§ï¿½ï¿½ï¿½hï¿½6:&#x16;F&#x7;B&#x1b;tï¿½ï¿½ï¿½ï¿½ï¿½Ñ‚ì…ˆh&#x1b;k&#xe;ï¿½LHï¿½ï¿½&#x1c;ï¿½ï¿½&amp;ï¿½V{i_qeï¿½&#x15;ï¿½Gï¿½i1G&#x10;ï¿½*ï¿½ß—p&#xc;eï¿½ï¿½_ï¿½_ï¿½Sï¿½Q7ï¿½&quot;ï¿½&#x1c;+Qï¿½lh52Blï¿½Hï¿½&#x16;kï¿½ï¿½)Vï¿½&#x10;ï¿½ï¿½Dï¿½+ï¿½+~ï¿½{&#x7f;ï¿½&#xe;(ï¿½Í–)akï¿½gY1]ï¿½3&#xc;ï¿½	ï¿½&#x0;}&#x1c;ï¿½ï¿½f@&#x11;Ö mT)ï¿½B&#x2;S&#x10;ï¿½ï¿½Þ¯ï¿½7&#x1;ï¿½ï¿½%&#x1b;ï¿½ï¿½ï¿½ï¿½ï¿½*ï¿½&#x7;ï¿½&#x8;sp&#x10;ï¿½ï¿½&#x4;oï¿½Nï¿½&#x1;&#x11;ï¿½&#x15;Ñ›ï¿½ï¿½&#x1a;ï¿½Sï¿½&#x1e;ï¿½Vï¿½ï¿½Vï¿½&amp;Tï¿½ï¿½1ï¿½kï¿½ï¿½ï¿½(Wï¿½ï¿½&#x1d;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:ï¿½Nï¿½ÏšFï¿½&#x1f;ï¿½zï¿½ï¿½ï¿½&#x8;=ï¿½ï¿½ï¿½Yï¿½8&#x8;ï¿½&#xf;l&#x1c;&#x4;.ï¿½~&#x18;Q|#ï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½9ï¿½&quot;;Qï¿½&#x13;$ï¿½ï¿½(NZï¿½&#x10;Jï¿½&#x8;Y&#x8;ï¿½ï¿½&#x11;ï¿½ï¿½ï¿½Ý¨ï¿½&#x2;ï¿½8&#x7f;2ï¿½5ï¿½hoï¿½ï¿½bï¿½yï¿½ï¿½&lt;|N&gt;Nï¿½ï¿½&#x11;ï¿½ï¿½ï¿½ï¿½5S&#x1a;ï¿½ï¿½ï¿½&#x13;ï¿½b&#x1a;ï¿½ï¿½8&#x4;i/ï¿½ï¿½&lt;ï¿½m&#x1f;2zï¿½Vï¿½&#x19;NC]ï¿½Aß¾ï¿½&#x1;8&#x1e;ï¿½ï¿½ï¿½oï¿½&#x6;ï¿½vÔ”&#x10;ï¿½&#x1c; ï¿½r&#x13;!gï¿½Mï¿½BOï¿½}ï¿½ï¿½3nï¿½0ï¿½a&#x17;hï¿½-ï¿½ukï¿½&#xf;Gï¿½ï¿½9ï¿½c(ï¿½Kï¿½(~qï¿½ï¿½	ï¿½ï¿½ï¿½ï¿½Ò²&#xd;vï¿½Pï¿½ï¿½ï¿½ï¿½&#x0;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½ï¿½Fï¿½ï¿½7&#x7;ï¿½ï¿½&#x1;T&#x16;ï¿½1;ï¿½o7ï¿½	ï¿½&#x4;&#x12;ï¿½ï¿½ï¿½&#x10;&#x1a;ï¿½&#x5;&#xd;
+zï¿½Dï¿½Ô’ï¿½R`ï¿½c&apos;ï¿½::ï¿½|&#x18;{Ö½ï¿½Ø&#x16;oCï¿½ï¿½y8ï¿½&#x1c;&#x1c;&#x1b;ï¿½`bï¿½0:tï¿½|Onï¿½&quot;rï¿½Nï¿½L^iï¿½B&#x17;wï¿½1&#xc;ï¿½ï¿½ï¿½/ï¿½@ï¿½rï¿½ï¿½ï¿½ï¿½&#x13;i&amp;&#x4;Vï¿½ï¿½&#x17;WG&#x18;ï¿½&#x1e;@7Pï¿½Fï¿½ï¿½o&#xe;ï¿½c5ï¿½wï¿½ï¿½l&apos;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½&#xf;Gï¿½ï¿½ï¿½ï¿½&#x1e;ï¿½ï¿½ï¿½Nlï¿½ï¿½ï¿½ï¿½y0[;ï¿½[ï¿½Ai4 )ï¿½I6É‘%ï¿½ï¿½*&#x1c;ï¿½ï¿½v\c &#x3;6ï¿½ï¿½|ï¿½/&#x5;ï¿½ï¿½=ï¿½|@Rï¿½Z3ï¿½/ï¿½ncpï¿½&#x1f;&apos;ï¿½&#x4;ï¿½&#x4;ï¿½&#x1e;ï¿½ï¿½Ý›ï¿½ï¿½&gt;jnï¿½ï¿½ï¿½n&#x0;Jï¿½ï¿½&#x1a;3ï¿½EÍ’,ï¿½Ð“&#x1;ï¿½Uï¿½Õ‘Sï¿½ï¿½ï¿½qYï¿½ï¿½&#x19;ï¿½ï¿½ï¿½Ù¶~v\ï¿½{:/ï¿½M&#x1a;kï¿½ï¿½h^ï¿½&#x13;ï¿½ï¿½xzH@uï¿½ï¿½ï¿½cOï¿½ ï¿½b&#x7;ï¿½&#x16;=+&amp;ï¿½$ï¿½ï¿½(aMï¿½Jï¿½&#xf;ï¿½4&gt;ï¿½È¾ï¿½ï¿½*ï¿½ï¿½ï¿½ï¿½Iï¿½&#xb;9ï¿½ï¿½ï¿½&#x19;ï¿½Qï¿½)ï¿½Kï¿½ï¿½ï¿½!G?ï¿½ujï¿½ï¿½Pï¿½ï¿½&amp;ï¿½&lt;/ï¿½ï¿½&#x0;&#x18;2ï¿½]&#x17;ï¿½ï¿½ï¿½bï¿½&#x1c;ï¿½Ð“&#x18;wï¿½yï¿½ï¿½t&#xb;rï¿½ï¿½ï¿½S(&#x1c;ï¿½Q@iï¿½&#xd;ï¿½ï¿½&#x1b;ï¿½&#x12;wï¿½&#xc;&#x19;ClDï¿½Le!2X&#x16;ï¿½ï¿½Yï¿½x&#x0;ï¿½dï¿½wï¿½ï¿½ï¿½Lgï¿½jIï¿½~Æ£ï¿½Tï¿½X9ä¶ŽÙƒXÈ”ï¿½&#xd;
+ï¿½ï¿½Xï¿½,ï¿½/ï¿½ï¿½ï¿½&#x12;ï¿½lï¿½ï¿½ï¿½(x:[ï¿½f&#xe;mm6wuï¿½Oï¿½ï¿½t&#x1f;lï¿½#&#x1e;ï¿½&#x16;ï¿½^bï¿½,&#x7;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½&gt;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{DO2&#x4;ï¿½ï¿½&#x17;ï¿½ï¿½&#x5;ï¿½&#xc;&#x13;&#x0;&#x0;</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-292">
+              <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
+              <stringProp name="HTTPSampler.path">/submit/firefox-desktop/newtab/1/af37a390-a77e-4148-be79-05218defb227</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">&#x1f;ï¿½&#x8;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;ï¿½ï¿½Xï¿½nï¿½6&#x16;ï¿½&#x17;&#x1;yï¿½fAKï¿½&#x3;ï¿½&#xf;ï¿½40&#xf;I P&quot;UEX&#x12;ï¿½&quot;eï¿½ï¿½ï¿½ï¿½\RR-ï¿½rï¿½K&#x12;ï¿½ï¿½ï¿½&#x16;É»ï¿½{ï¿½%&#x7f;&#x6;ï¿½ï¿½wï¿½ï¿½&#xb;&#x1d;l&#x7f;&#x6;Fï¿½&#x8;ï¿½Iï¿½ï¿½&#x16;&#x18;ï¿½[ï¿½ZUï¿½`&#x1b;ï¿½aï¿½daï¿½ï¿½ï¿½ï¿½pï¿½M&#x16;ï¿½ï¿½r&#x16;ï¿½!&#xb;&#x17;ï¿½0&#xc;ï¿½&#x5;ï¿½&#x16;&#x5f7;.ï¿½ï¿½|&gt;[,6ï¿½ï¿½Vrï¿½klï¿½ï¿½ï¿½Yjï¿½1Jï¿½)Dï¿½ï¿½ï¿½Fï¿½&#x10;T[Cï¿½ï¿½&lt;ï¿½]m&#x19;&#x17;ï¿½ï¿½ï¿½ï¿½r^ï¿½ï¿½ï¿½ï¿½ï¿½-Ë´~ï¿½xï¿½`Ø®ï¿½&#x19;/Yï¿½ï¿½&quot;&#x1d;ï¿½Z^ï¿½{hï¿½ï¿½gIï¿½&#x13;n[Nï¿½ï¿½Ðï¿½ï¿½ï¿½ï¿½ÎŒï¿½^^ï¿½&#x5;Bï¿½&#x7;ï¿½&#x1b;ï¿½ï¿½R(&#xb;uï¿½`ï¿½ï¿½ï¿½Pe9ï¿½ï¿½5ï¿½JI2ï¿½ï¿½ï¿½ï¿½%Ü’gï¿½ï¿½&#x8;&apos;ï¿½ï¿½ï¿½fï¿½ï¿½ï¿½ï¿½ï¿½X)X^*Ò±ï¿½Xd&#x5;&#x1c;ï¿½xï¿½ï¿½*ï¿½ï¿½yï¿½Luï¿½Lï¿½&#x16;Rï¿½ï¿½@ï¿½&#x19;Bï¿½ï¿½&#x10;i &#x4;ï¿½&#x5;cï¿½.Ø“nKï¿½%ï¿½ï¿½Oï¿½ï¿½USJï¿½5ï¿½?ï¿½VVï¿½ï¿½Aï¿½|&#x1c;ï¿½ï¿½1&apos;nBï¿½ï¿½ï¿½ï¿½	1&#xd;&#x16;lbZ&#xd;
+ï¿½Ì„ï¿½&#x2;ï¿½T]i&#x15;ï¿½ï¿½j9&#x3;ï¿½&#x17;wï¿½ï¿½ï¿½e&amp;ï¿½ï¿½Cï¿½&#x1a;ï¿½Qï¿½LVï¿½ï¿½Y}&#x15;dï¿½ï¿½IÒ‘gVï¿½ï¿½G&#x7;ï¿½ï¿½&#x3;ï¿½&#xc;@ï¿½$3ï¿½ï¿½4Pï¿½ï¿½ï¿½Õ•&#x1e;Aï¿½xï¿½R#ï¿½ï¿½\ï¿½ï¿½ï¿½&#xf;ï¿½Tï¿½ï¿½&#x19;&#x1d;Bï¿½ï¿½Z@ï¿½Qï¿½ï¿½ï¿½ï¿½ï¿½Yï¿½9&#xd;pï¿½ï¿½;k&#x11;Ó§!ï¿½ï¿½&#x7;[/ï¿½:&#x1c;}Rvï¿½ï¿½ï¿½&amp;ï¿½ï¿½xf=pï¿½&#x0;{&#x17;ï¿½ï¿½ï¿½ï¿½ï¿½,8*ï¿½&#x13;ï¿½#ï¿½Bï¿½ï¿½0sï¿½ï¿½ï¿½|ï¿½ï¿½&#x6;bï¿½ï¿½ï¿½t&#x13;5ï¿½Zï¿½%ï¿½Fp+{ï¿½a]&#xd;eï¿½ï¿½ï¿½DÕ ï¿½ï¿½ï¿½&#x4;ï¿½ï¿½0Kï¿½ï¿½ÊŸ&#x16;&#x13;&#xb;]&#x19;ï¿½Kï¿½ï¿½ï¿½&#x19;&#xf;M&#x16;ï¿½ï¿½$ï¿½ï¿½ï¿½ï¿½,$&#x3;ï¿½&gt;*Î¼ï¿½qï¿½ÇƒïŠ’ï¿½&#x6;&#x18;&#x6;YKfï¿½ï¿½|ï¿½RÜ»ï¿½&#x18;ï¿½*Î¾ï¿½ï¿½ï¿½fï¿½ï¿½RCï¿½ï¿½mï¿½ï¿½ï¿½&#x14;ï¿½ï¿½]ï¿½C&#x1a;ï¿½ï¿½ï¿½ï¿½ï¿½3ï¿½Bï¿½ï¿½Qï¿½Í›&#xd;
+ï¿½?N~Wï¿½B!oï¿½Q.|ï¿½Ñ¹a(&#x1e;Fï¿½ï¿½EÛ‡&#x8;ï¿½&#x1a;ï¿½ï¿½ï¿½&#x3;Â¢$ï¿½xD&#x1d;Q?[ï¿½Hï¿½uï¿½!ï¿½F2&#x13;&amp;ï¿½ï¿½&#x13;ï¿½Ý´ï¿½ ï¿½ï¿½ï¿½ï¿½$ï¿½&#x3;ï¿½&#x11;MKpï¿½ï¿½_-ï¿½wï¿½ï¿½ï¿½eï¿½\ï¿½ï¿½ï¿½&#x8;&#x12;56dï¿½Gï¿½T&#x15;ï¿½:ï¿½ï¿½:&#x1d;ï¿½ï¿½\ï¿½ï¿½&#xb;ï¿½Ø‡&#x14;CCï¿½ï¿½ï¿½Î³&#x3;ï¿½&#xd;
+Cï¿½ï¿½ï¿½&#x7;ï¿½zlï¿½)ï¿½&#x6;fË¸ï¿½ï¿½)ï¿½&lt;;0ï¿½&quot;ï¿½ï¿½&#x3;ï¿½)&#x1a;ï¿½a(ï¿½\ï¿½ï¿½ï¿½ï¿½&#xd;ï¿½ï¿½ï¿½&lt;ï¿½ï¿½ï¿½ï¿½&#x15;0ï¿½Iï¿½&#x1f; ï¿½ï¿½uï¿½ï¿½ï¿½s8pï¿½%=ï¿½=&#x0;ï¿½ï¿½ï¿½@&#x1d;ï¿½ï¿½?Cï¿½&#x19;Ù¢t&#x8;ï¿½ï¿½5t&#xd;ï¿½ï¿½ï¿½ï¿½hï¿½g&amp;ï¿½ï¿½2-ï¿½ï¿½c~:Å„ï¿½ï¿½z&#x7f;ï¿½?ï¿½ï¿½&#x1e;ï¿½Fï¿½6ï¿½ï¿½ï¿½ï¿½ï¿½;&#x4;ï¿½ï¿½Gï¿½ï¿½ï¿½\t2Òš&#x13;Lï¿½wï¿½P&gt;Mï¿½ï¿½ï¿½ï¿½ï¿½à¡Šï¿½&#x12;ï¿½ï¿½ï¿½*Jb_×¤ï¿½Aï¿½ï¿½rï¿½ï¿½ï¿½8&#x5;ï¿½ï¿½ï¿½M&#x0;ï¿½Upï¿½cï¿½ï¿½é®•ï¿½ï¿½ï¿½K&#x5;*-ï¿½&#xb;ï¿½ï¿½lï¿½Qß·ï¿½srï¿½ï¿½&amp;vSOï¿½ï¿½+ï¿½.&#x1e;ï¿½ï¿½ï¿½[3Ã»ï¿½&#x11;&#x1d;ï¿½ï¿½ï¿½ï¿½Yï¿½&#x13;ï¿½ï¿½v;\&#x3;.SD&#x13;é±ï¿½9Ü‹Û•#ï¿½ï¿½{&#x5;ï¿½\&#x8;ï¿½8nï¿½#&#xf;8Tï¿½ï¿½Hï¿½,ï¿½&#xd;
+ï¿½&#xc;ï¿½*&#x1a;&#x12;&#xd;&#x1;ï¿½&#x4;ï¿½ï¿½8&#x1c;ï¿½ï¿½&#xf;ï¿½	 ï¿½&#x1;ï¿½ï¿½&#x8;ï¿½}ï¿½ï¿½ï¿½ulwa&#x1c;ï¿½ï¿½ï¿½Tï¿½&#x1a;ï¿½fï¿½*&#x11;ï¿½`ï¿½ï¿½Eï¿½&#x18;&quot;Ý‡ï¿½ï¿½ï¿½ï¿½ï¿½f&#x15;ï¿½[{ï¿½=&#xc;ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½nlï¿½vï¿½ï¿½&#x19;cNï¿½ï¿½5ï¿½ï¿½ï¿½ï¿½ï¿½7MJï¿½Rï¿½ï¿½ï¿½ï¿½~ï¿½ï¿½!ï¿½ï¿½&#xf;ï¿½S&#xd;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)ï¿½&#xd;gï¿½ï¿½ï¿½bIï¿½`Cï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½2]ï¿½ï¿½Chd&#xd;h?Eï¿½&#x1b;ï¿½Zï¿½hï¿½Gï¿½Yï¿½uï¿½z&#xb;ï¿½ï¿½&#xb;ï¿½ï¿½zï¿½+ï¿½ï¿½ï¿½}Yyï¿½iï¿½Uï¿½lï¿½m&#x1c;/ï¿½ï¿½&#x18;82ï¿½ï¿½&#x17;ï¿½HâŒ…ï¿½|ï¿½ï¿½kï¿½aï¿½2Lï¿½:ï¿½È£|!ï¿½ï¿½Lï¿½ï¿½Uï¿½ï¿½ï¿½].ï¿½Eï¿½ï¿½ï¿½@ï¿½/ï¿½&quot;^ï¿½ï¿½ï¿½&#x12;ï¿½ï¿½HKï¿½mï¿½ï¿½ï¿½Fï¿½[ï¿½&#x15;ï¿½ï¿½ï¿½ï¿½e&#x1;ï¿½ï¿½ï¿½Z&#x7f;cï¿½qï¿½&#xd;ï¿½È²ï¿½&#x1d;ï¿½tï¿½rï¿½Pï¿½&#x1d;ï¿½&#xf;ï¿½&#x11;&#x3;ï¿½~ï¿½Mï¿½ï¿½xWEï¿½&#xe;ï¿½RDlï¿½ï¿½ï¿½ï¿½rï¿½a|ï¿½ï¿½kï¿½*ï¿½&#xc;ï¿½ï¿½bMï¿½&#x7f;%ï¿½4\ï¿½dï¿½&#x5;&#x5;W&lt;ï¿½]ï¿½ï¿½ï¿½ï¿½lï¿½vï¿½&#x12;&#x7f;ï¿½Iï¿½ï¿½ï¿½&#x16;ï¿½&#x1c;Fb@ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½m;I&#x1d;ï¿½qSï¿½ï¿½ï¿½^ï¿½&#x13;ï¿½e/ï¿½ï¿½bï¿½ï¿½ï¿½ï¿½6&#x1a;Dï¿½&#x1a;ï¿½ï¿½ï¿½ï¿½ï¿½&gt;ß‹!{ï¿½j9ï¿½Gï¿½&#x19;ï¿½Nï¿½&#x12;Bï¿½ivHï¿½^ï¿½&quot;mï¿½0v&#x18;m&#x1d;ï¿½:jï¿½nß¨ï¿½&#xd;ï¿½B&#x16;&#x1c;ï¿½ï¿½]ï¿½/ï¿½&gt;ï¿½ï¿½ï¿½]ï¿½ï¿½=	jVï¿½ï¿½pï¿½&#x1b;&#x3;Hï¿½ï¿½ï¿½ï¿½ï¿½?ï¿½]sï¿½ï¿½ï¿½3&#x1a;ï¿½&#x16;ï¿½/t9vï¿½4]ï¿½Nï¿½ï¿½å5rï¿½k!ï¿½ï¿½ï¿½ï¿½Ñ¬ï¿½&#x4;6:ï¿½~ï¿½9ï¿½ï¿½ï¿½Jï¿½,}]ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½Ú‚ï¿½Gï¿½o(&lt;7ldc&amp;n&#x1e;9ï¿½I?ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½FHï¿½\ï¿½Rï¿½ï¿½ï¿½ï¿½*ï¿½.ï¿½#zhï¿½&#xd;ï¿½ï¿½U&lt;Yï¿½ï¿½ï¿½Ã…ï¿½uï¿½ï¿½%4ï¿½ï¿½&apos;ï¿½ï¿½ï¿½&lt;&#x0;&#xe;ï¿½&#x18;ï¿½Iï¿½ï¿½ß‚qï¿½;-ï¿½ï¿½_ï¿½ï¿½&#x1;Äï¿½ï¿½ï¿½Ü¯&#x10;ï¿½a	Wï¿½&#xd;
+ï¿½ï¿½&#x10;ï¿½sÌ‚wï¿½bï¿½ï¿½cï¿½nd}&gt;ï¿½xï¿½E&#xf;ï¿½hï¿½%ï¿½7ï¿½mï¿½ï¿½ï¿½ï¿½ï¿½Ú“&#x12;vï¿½:O&#x1c;ï¿½ï¿½#ï¿½ï¿½Ð¶GE&gt;ï¿½&#x18;ï¿½Tï¿½8?ï¿½ï¿½:&#xc;ï¿½Í‚ï¿½ï¿½yï¿½ï¿½ï¿½:a&#x1b;ï¿½&#xe;ï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½\ï¿½ï¿½&#x5;GwD8ï¿½/Aï¿½&#x2;?ï¿½ï¿½&#x4;ok&#x171c;&gt;s5^ï¿½ï¿½:ï¿½ï¿½ï¿½-&#x378;ï¿½ï¿½ï¿½ï¿½ï¿½Fcï¿½ï¿½5ï¿½=ï¿½ï¿½Ï•I&#x1b;ï¿½&#x1;9ï¿½9p#ï¿½&#x2;ï¿½ï¿½Qï¿½6Xï¿½ï¿½cï¿½Nv&#x7f;8(_ï¿½ï¿½&apos;ï¿½rï¿½ï¿½&#x1b;^ÞˆÉ›&#x1;N(&#x5;&apos;&#x19;ï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½ï¿½ï¿½&apos;ï¿½w#(&apos;.Ç¯]^ï¿½ï¿½Yï¿½oer;:ï¿½&#x2;y/ï¿½_ï¿½ï¿½ï¿½Kï¿½mCï¿½ï¿½ Ì¿ï¿½ï¿½Wï¿½@-Oï¿½ß‡jï¿½&quot;Zï¿½ï¿½.ï¿½ï¿½nï¿½ï¿½eï¿½ï¿½Mï¿½L#ï¿½/rï¿½Äªï¿½_ï¿½U]&#x4;ï¿½Gï¿½#qï¿½r&#x14;Ç‹Eï¿½ï¿½&#x1c;ï¿½ï¿½Úœï¿½!7Íœï¿½ï¿½l~ï¿½ï¿½~&#x7f;ï¿½&#x13;&#x10;bï¿½&#x1a;7&#x1f;&#x0;&#x0;</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-297" enabled="false">
+              <stringProp name="HTTPSampler.domain">mozilla-ohttp.fastly-edge.com</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">ï¿½&#x0; &#x0;&#x1;&#x0;&#x1;ï¿½ï¿½ï¿½ï¿½-ï¿½yï¿½&#x7;D&#x1f;&#x16;ï¿½F$ï¿½ï¿½ï¿½Úï¿½Rï¿½Tï¿½Bï¿½Iï¿½rï¿½9m&#x10;Ò·&#x1a;Aï¿½sï¿½ï¿½;*ï¿½&#x3;ï¿½!&#x1;ï¿½ï¿½746(pï¿½]TÑï¿½$oï¿½e&#x1a;x-ï¿½&#x18;ï¿½`&#xb;ï¿½ï¿½=#g&#x19;ï¿½ï¿½&#x11;ï¿½b[ï¿½&#x15;9ï¿½ï¿½ï¿½eï¿½:ï¿½&#x7f;@ï¿½ï¿½7ï¿½ï¿½&#x12;&#x1;-ï¿½&lt;&#x6;&#x7;ï¿½I&#x19;g&#x10;fDï¿½ï¿½`1&#xb;&#x15;M[kÔï¿½&#x1f;&amp;ï¿½Hrï¿½y?&apos;&amp;ï¿½&#x1a;ï¿½nï¿½&gt;ï¿½ï¿½ï¿½ï¿½sï¿½,&amp;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½5Ï¼&apos;&#x3;ï¿½\ï¿½&#x16;&#x1b;ï¿½&#x14;ï¿½\H&#x13;ï¿½ï¿½Òœm)C	ï¿½hJï¿½ï¿½ï¿½-ï¿½ï¿½&#x1e;|?ï¿½&quot;ï¿½ï¿½Dz$Gï¿½&#x1f;3ï¿½ï¿½kqï¿½ï¿½Å¨s?aW&#xb;ï¿½wï¿½ï¿½ï¿½;]{+&#x19;^&#x16;ï¿½ï¿½J:Wï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½W$ï¿½&#x10;6ï¿½ï¿½ï¿½ï¿½&#x3;2ï¿½&#x18;mï¿½Mï¿½ï¿½~8,uï¿½ï¿½RÌ¡\x&#x18;ï¿½&#x17;&amp;5&#x1b;ï¿½ï¿½:ï¿½[ï¿½{ï¿½*ï¿½VC&#x10;mï¿½&#x17;W&#x7f;ï¿½Hï¿½2ï¿½&#x10;ï¿½&lt;ï¿½]&#x5;ï¿½ÝŽ&#x18;ï¿½uï¿½ï¿½Zrï¿½ï¿½@ï¿½/&lt;ï¿½&#x7;ï¿½ï¿½?iï¿½&#x11;Vï¿½&#xd;
+p9M\ï¿½ï¿½Ñºï¿½Y&#xf;ï¿½ï¿½&#x89;&#xc;Qwï¿½ï¿½Uï¿½&#x0;4tï¿½ï¿½mï¿½&#x1f;_ï¿½ï¿½@ï¿½lï¿½ï¿½Nï¿½ï¿½Giï¿½5ï¿½uï¿½4Y&#x1f;&#x1a;n0ï¿½*ï¿½Zï¿½ï¿½&#x1;vï¿½0ï¿½ï¿½Hï¿½~OyDï¿½&#x2;Sï¿½+ï¿½ï¿½&#x0;ï¿½&#x2;ÍM&#x19;&#x13;Q/&apos;ï¿½ï¿½ï¿½ï¿½ï¿½GßÖµ_Jï¿½JÔ·ï¿½ï¿½ì‡€n&#x0;*ï¿½jGï¿½ï¿½2&#x1e;ï¿½\J)Mï¿½$ï¿½xry&#xe;ï¿½ï¿½ï¿½Ú˜ï¿½ï¿½KWï¿½Ä½ï¿½ï¿½ï¿½@ï¿½&#x7f;ï¿½ï¿½@ï¿½ï¿½ÊHï¿½ï¿½ï¿½&#x14;ï¿½gï¿½ï¿½$ï¿½9&#x1c;ï¿½ï¿½5~</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-293" enabled="true">
+              <stringProp name="HTTPSampler.domain">webflowerslm.azurewebsites.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/(S(hcyfeo3qljjga2q14vihicgn))/Fonts/Titillium/Titillium-Regular.woff2</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-298">
+              <stringProp name="HTTPSampler.domain">webflowerslm.azurewebsites.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/(S(hcyfeo3qljjga2q14vihicgn))/Fonts/Titillium/Titillium-Semibold.woff2</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-299" enabled="true">
+              <stringProp name="HTTPSampler.domain">webflowerslm.azurewebsites.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/(S(hcyfeo3qljjga2q14vihicgn))/Fonts/Titillium/Titillium-Bold.woff2</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-301" enabled="false">
+              <stringProp name="HTTPSampler.domain">mozilla-ohttp.fastly-edge.com</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">ï¿½&#x0; &#x0;&#x1;&#x0;&#x1;ï¿½=ï¿½ï¿½&#x17;_ï¿½ï¿½&quot;oÊï¿½Sèœ&#x8;wï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½+ï¿½&quot;S0ï¿½7ï¿½ï¿½1&#x19;ï¿½?N&#x11;4Eï¿½,&#x3;ï¿½vï¿½Õ”jï¿½ï¿½ï¿½ï¿½ï¿½&quot;lcï¿½ï¿½&amp;&#x6;ï¿½Bsz&apos;Lï¿½Z9&#x13;ï¿½dï¿½oï¿½L&apos;W&gt;J7Sï¿½&quot;6ï¿½^ê¼ EZï¿½ï¿½ï¿½&#x14;=ï¿½%Å†ï¿½ï¿½&quot;&apos; V&#x4;H&#x1a;Çµï¿½\DL{ï¿½&apos;VTï¿½mï¿½KB&#x7;ï¿½P0&amp;Jï¿½ï¿½Û»ï¿½(*6ï¿½?dï¿½ï¿½X;&#x7;ï¿½ï¿½ï¿½/(ï¿½ï¿½cï¿½Rï¿½NÕµï¿½&#xe;!ï¿½ï¿½&gt;ï¿½ï¿½ï¿½II_ï¿½UTï¿½ï¿½~&lt;ï¿½ï¿½&#xd;Rï¿½1ï¿½&#x6;ï¿½ï¿½ï¿½H:ï¿½ï¿½ï¿½ï¿½&#x0;%&#xd;ï¿½tï¿½{9ï¿½#ï¿½ï¿½Yï¿½&#xd;&#x10;O/lï¿½ï¿½ï¿½&#x0;ï¿½2ï¿½&quot;ï¿½ï¿½ï¿½&apos;A/ï¿½ï¿½-0&#x7;ï¿½ï¿½n&lt;ï¿½Z|ï¿½È±ï¿½eï¿½ï¿½)ï¿½&#xf;Ú¦4ï¿½ï¿½ï¿½&#x4;5H$ï¿½-ï¿½gA|Ó˜&#x3;Wï¿½+ï¿½ï¿½&#x3;ij&#x5;ï¿½	ï¿½ï¿½;1&#x1e;bï¿½	&#x8;DØï¿½&#x1c;ï¿½&#x8;t&#x10;É¬&#x6;ï¿½p&#x13;a&#x16;&#x11;y;/9).E&#x5;5ï¿½zUï¿½&#x1;ï¿½hï¿½/rï¿½,	ï¿½]ï¿½?ï¿½Pï¿½ï¿½&#x1;ï¿½ï¿½~Ã¤ç±•ï¿½7ï¿½ï¿½ï¿½ï¿½&#x15;)ï¿½}ï¿½ï¿½&lt;ï¿½&#x17;&#xd;ï¿½ï¿½{ï¿½&#x10;ï¿½ï¿½Y&#x0;ï¿½/ï¿½ï¿½c&#x2;ï¿½\ï¿½&#xf;ßªï¿½KH_	ï¿½ï¿½	,ï¿½ï¿½BKXï¿½|Vï¿½ï¿½&quot;ï¿½ï¿½&#x5;sxÑ¢ï¿½ï¿½ï¿½C$SkE&#x1b;$&#x16;pE&#x13;ï¿½&#x3;&#x1f;5YÇ·ï¿½&#x1b;Tï¿½+ï¿½nï¿½&#x19;&apos;&#x11;ï¿½ï¿½ï¿½ï¿½&#xd;
+ï¿½ï¿½Lbï¿½8ï¿½x)ï¿½ï¿½ï¿½h&#x11;ï¿½	ï¿½wu/Ö¼:mï¿½\&#x13;ï¿½ï¿½J&amp;ï¿½Lï¿½$ï¿½oFï¿½ï¿½7ï¿½ï¿½ï¿½Xmï¿½j&#x15;aE{G</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-303" enabled="false">
+              <stringProp name="HTTPSampler.domain">mozilla-ohttp.fastly-edge.com</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">ï¿½&#x0; &#x0;&#x1;&#x0;&#x1;ï¿½mï¿½ï¿½ï¿½á»”b}ï¿½ï¿½Ü€ï¿½4&#x4;ï¿½ï¿½tï¿½Iiï¿½ï¿½ï¿½ï¿½&#x3;ï¿½&#x1c;]&#x4;ï¿½ï¿½&#x2;ï¿½ï¿½g7Ë©&#x1;ï¿½Óï¿½&#xb;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½m*ï¿½&#x19;ï¿½&#x14;Wï¿½+ï¿½3&#x16;ï¿½ï¿½ï¿½Bï¿½:ï¿½ZPï¿½Xï¿½&#x11;ï¿½9g&#x11;ï¿½M/&#x11;ï¿½l*Vï¿½&#x19;ï¿½ï¿½vï¿½ï¿½ï¿½&#xf;$ï¿½ï¿½&#x15;&#x4;ï¿½&apos;^ï¿½&#xd;&amp;ï¿½[ï¿½ï¿½é­ï¿½&apos;ï¿½W&#x11;ï¿½ï¿½&#xd;]&#x2;?mï¿½]cs@1ï¿½|ï¿½ï¿½ï¿½7M&#x1a;zï¿½&#xf;ï¿½dï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½ï¿½&#xc;5qï¿½&#x1b;Aï¿½I%o1&amp;Evï¿½&#x15;VId&#x10;&#xd;rï¿½dmv5ï¿½ï¿½ï¿½&#x8;ï¿½&#x1d;hï¿½.^Uï¿½2tï¿½ï¿½DÚ„É“ï¿½\ï¿½ï¿½;ï¿½ï¿½ï¿½ï¿½ï¿½aC&#x5;ï¿½ï¿½hï¿½wï¿½ï¿½&#xd;Gï¿½ï¿½&#x1f;|ÍÝ§&#xc;ï¿½&amp;ï¿½Uï¿½r}ï¿½ï¿½&#x1a;HUFï¿½4%&#x7f;e6&#x13;&#x4;&#x15;ï¿½!&#x2;cï¿½ï¿½^fï¿½ï¿½&#x5;%lï¿½A1ï¿½ï¿½ï¿½Z3Ì‚ï¿½7iï¿½Í¦&#x7f;ï¿½ï¿½&amp;&#x1b;G&#x7;ï¿½Yï¿½&#x17;eï¿½&#x11;ï¿½ï¿½Û²ï¿½~Y&#x10;ï¿½&#x7f;&#x7f;ï¿½ï¿½ï¿½%&#x16;u8&#xf;ï¿½)ï¿½ï¿½ï¿½CËª&lt;]ï¿½glWU	nï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½&#x4;ï¿½ï¿½&#x58c;&amp;ï¿½ï¿½ï¿½&#x7;.&#x1a;ï¿½&#xb;ï¿½ï¿½yIï¿½ï¿½tï¿½5&#x7f;QDï¿½Õ‡ï¿½ï¿½Rï¿½ï¿½Mï¿½ï¿½&#x1b;\ï¿½Fï¿½&#xd;.7ï¿½ï¿½rsï¿½fï¿½:ÙŠï¿½\&#xd;
+ï¿½Èˆï¿½Ö±ï¿½&#xb;ï¿½^,ï¿½L-Jï¿½+&amp;&amp;=ï¿½&gt;zï¿½Gï¿½&#xe;S8ï¿½ï¿½ï¿½,ï¿½x&#x1e;&#x1d;ï¿½A.EV#ï¿½y&#xd;
+ï¿½IOï¿½T-ï¿½jn#Nï¿½&#x5;ï¿½g8[ï¿½ï¿½|ï¿½a&#x13;&apos;Uï¿½ï¿½&quot;ÜŒ9ï¿½@ï¿½Rï¿½ï¿½&apos;Bï¿½)ï¿½0*;	&#x18;Sï¿½wï¿½&#x18;!ï¿½ï¿½Wï¿½&#x1d;ï¿½&#x8;&#x13;]ï¿½%b</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-306" enabled="false">
+              <stringProp name="HTTPSampler.domain">mozilla-ohttp.fastly-edge.com</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">ï¿½&#x0; &#x0;&#x1;&#x0;&#x1;:ï¿½aï¿½Ù®nï¿½N&#x11;ï¿½ï¿½xï¿½bï¿½&#x17;ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½0ï¿½&lt;ï¿½ï¿½Eï¿½!ï¿½ï¿½ï¿½rï¿½ï¿½[kï¿½ï¿½ï¿½Q&apos;C&#x1a;ï¿½&#x1d;qï¿½ï¿½&#x0;.WQ bï¿½ï¿½[ï¿½&#x18;7&#x8;ï¿½bï¿½&#x12;ï¿½ï¿½1ï¿½ï¿½ï¿½9ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½!ï¿½ï¿½0ï¿½&#x1d;~k&#x17;N6Úµï¿½&#x19;]ï¿½ï¿½ï¿½ï¿½ï¿½Kfï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½&#xf;|&#xe;ï¿½&apos;&quot;tÙ•ï¿½ï¿½-ruqï¿½ï¿½Pï¿½ï¿½Zï¿½hï¿½S8ï¿½&#x1a;ï¿½rï¿½ï¿½Bï¿½&#xd;	ï¿½[ï¿½&#x1a;&#x12;+ymï¿½:&gt;ï¿½fï¿½, &#xd;ï¿½wï¿½ï¿½l(5ï¿½ï¿½\&#x16;ï¿½6uï¿½ï¿½ï¿½ï¿½ï¿½Q}ï¿½&amp;Sï¿½&#x18;ï¿½ï¿½ï¿½&#x2;r&apos;ï¿½y6ï¿½&#x7;&#x5;ï¿½ï¿½&#x6;ï¿½(M-Fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½8=ï¿½ï¿½Rï¿½SBï¿½&#x1c;ï¿½ï¿½&#xc;ï¿½^+vï¿½&#x18;ï¿½&quot;H&#x10;ï¿½Õ–ï¿½ï¿½ï¿½&gt;gï¿½ï¿½&#x0;È’ï¿½ï¿½ï¿½ï¿½,ph@A&#x2;n~|ï¿½Sï¿½ï¿½&#x1a;ï¿½2ï¿½Ñ¡ï¿½ï¿½iIï¿½ï¿½Pï¿½ï¿½Fï¿½ï¿½ï¿½Dï¿½~ï¿½+8?YO);v&#x19;ï¿½xï¿½ZU&#x10;^&#x4;ï¿½ï¿½&#x7;ï¿½Z zQï¿½ï¿½R&apos;ï¿½ï¿½iï¿½#&#x8;ï¿½&#x1;&#x1;2&#x7f;ï¿½Pï¿½ï¿½;ï¿½A`Nï¿½P!ï¿½ï¿½Ø½ï¿½hï¿½Qh&#xb;9&#xe;&#x16;ï¿½@~^2)ï¿½hï¿½ï¿½ !wï¿½ï¿½{ï¿½GÞ¯bï¿½ï¿½0aï¿½jJï¿½ï¿½ï¿½ï¿½ï¿½&apos;?ï¿½&#x7f;mï¿½ï¿½Vï¿½ï¿½V/wï¿½?xV&#xd;ï¿½ï¿½&gt;ï¿½ip_ï¿½ï¿½Q&#x1e;Wï¿½&apos;ï¿½&#x10;ï¿½\]4ï¿½ï¿½ï¿½ï¿½ï¿½e(19ï¿½@S&lt;ï¿½&#xc;ï¿½ï¿½INï¿½ï¿½j&gt;ï¿½&#x557;ï¿½ï¿½\&amp;ï¿½ï¿½Ï¾ï¿½&#x1c;d%&#x12;ï¿½ï¿½ï¿½Ä…x:qï¿½Jï¿½Dï¿½&#x1f;&#x4;ï¿½)xï¿½i&#x10;ï¿½Iï¿½ï¿½&#xf;ï¿½ï¿½Cwï¿½ï¿½ï¿½</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-307" enabled="true">
+              <stringProp name="HTTPSampler.domain">incoming.telemetry.mozilla.org</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
+              <stringProp name="HTTPSampler.path">/submit/firefox-desktop/newtab/1/70685c0e-d861-4e71-b1dc-bd905dded5a0</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">&#x1f;ï¿½&#x8;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;ï¿½ï¿½Xï¿½nï¿½6&#x10;ï¿½&#x17;&#x1;}ï¿½Ò,[ï¿½&lt;&#x16;ï¿½&#xf;ï¿½&#xb;ï¿½ï¿½ï¿½&#x10;(ï¿½ï¿½ï¿½Hï¿½ï¿½ï¿½â¸‹ï¿½{g(Jï¿½&#x1d;;Vb/ï¿½ï¿½ï¿½ï¿½pï¿½sfï¿½?ï¿½Fï¿½E*ï¿½\&#x5;ÛŸï¿½&#x11;?ï¿½m&#x1c;ï¿½ï¿½&#x4;ï¿½RmS++&#x11;lï¿½y8OH&#x18;ï¿½pï¿½5ï¿½lï¿½ï¿½vï¿½ï¿½ï¿½aHï¿½ï¿½6&#xc;ï¿½/ï¿½ï¿½ï¿½&#x5;ï¿½(Ü†@ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½&#x5;5ï¿½&#x6;ï¿½Zï¿½-ï¿½R#ï¿½ï¿½ï¿½Nï¿½&#x5;2ziï¿½&#x6;Fï¿½5ï¿½&#xe;eLï¿½ï¿½%ï¿½ï¿½ï¿½&#x2;&#x15;aï¿½,UkIï¿½4É”zï¿½ï¿½~2ï¿½(UFKï¿½ï¿½;Ä‹ï¿½ï¿½5Û&#x14;&#xb;ï¿½,ï¿½sÌ­ï¿½xj&#xf;&#xd;ï¿½Zï¿½*kï¿½pï¿½ï¿½ï¿½Kï¿½,ï¿½ï¿½ ï¿½ï¿½jï¿½ï¿½pï¿½ï¿½bï¿½zÔŽ&lt;ï¿½C2ï¿½&amp;ï¿½}Ù„Nï¿½.ï¿½Fï¿½gï¿½IEei&#x15;ï¿½Ñšï¿½&#x10;&#x1e;ï¿½ï¿½vGï¿½!ï¿½ï¿½ï¿½ï¿½Ô¹ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½&#x4;ï¿½ï¿½ï¿½ï¿½E&#xd;2Iï¿½&quot;ï¿½Uï¿½ï¿½(xï¿½ï¿½&#x16;ï¿½ï¿½{ï¿½ &#xd;ï¿½ï¿½Kï¿½:Í‘ï¿½QLï¿½#W/ï¿½+ï¿½KAï¿½ï¿½ï¿½ï¿½Pï¿½ï¿½ï¿½R&#x2;Ùµ|ï¿½ï¿½oR&#xb;ï¿½&#x4;&#x6;mO&#x5;!ï¿½OBï¿½Bï¿½&#x10;Cï¿½Èˆ&#x16;%$ï¿½&#x18;&#x4;ï¿½ï¿½gï¿½ï¿½p2ï¿½ï¿½Uï¿½ï¿½FQ3Aï¿½ï¿½kï¿½ï¿½ï¿½\!	ï¿½Qï¿½)K&#x1a;Z&#x8;bï¿½&#xd;
+ï¿½Jï¿½ï¿½ï¿½Yï¿½Üœï¿½Z&#x1f;ï¿½ï¿½ï¿½BLpï¿½ï¿½iï¿½ï¿½eï¿½ï¿½Þ&#x16;ï¿½ï¿½ZUuï¿½ï¿½ï¿½ï¿½D`ï¿½ï¿½ï¿½bß«ï¿½Pcï¿½Jï¿½iï¿½B&amp;Z#&#x0;\5Dï¿½ï¿½RZP_&#x18;HkCï¿½ï¿½H)+iI&#xb;Fï¿½ï¿½(fï¿½ï¿½&#x12;=ï¿½ï¿½ï¿½Aï¿½&#x13;&#x16;ï¿½C0.&#xd;&#x3;DÑ‡ï¿½&#xc;â¢”H3ï¿½&#x7f;ï¿½ ï¿½ï¿½ï¿½&#x15;Ù©ï¿½gï¿½=&#x11;ï¿½ï¿½ï¿½V{ï¿½u.Ì“Uï¿½&#x7;&#x5;ï¿½ï¿½ï¿½Yï¿½&#x16;&#x14;eTsï¿½6ï¿½ZaNï¿½uï¿½ï¿½iï¿½:&#x0;i&#x0;I&#x0;Xs	ï¿½&#xd;&#x0;&#x12;Û¹jï¿½ï¿½ï¿½&#x1d;ï¿½ï¿½ï¿½fjï¿½ï¿½&gt;4ï¿½ aï¿½D6;&#x1;ï¿½$ï¿½&#xc;sï¿½ï¿½&#x4;ï¿½Z-Mï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½,hï¿½ï¿½e&#xe;{&#x11;Ö´ï¿½ï¿½J&#xd;&gt;ï¿½&#xb;ï¿½|dï¿½ï¿½ï¿½Ù©=~I&#xf;ï¿½$&#x8;B}&#x6;ï¿½`ï¿½ï¿½ï¿½&#x2;Û®ï¿½ï¿½&#xd;ï¿½&#x14;Ç¸Zzï¿½ï¿½&#x15;ï¿½i&#x1a;ï¿½}mhï¿½ï¿½m&#x1b;Kï¿½ï¿½&#x16;ï¿½ï¿½&#x2;ï¿½ï¿½ï¿½ï¿½#&gt;ï¿½ï¿½ï¿½`&#x6;ï¿½ï¿½*u&#x19;ï¿½p&#x4;ï¿½Pï¿½ï¿½$jï¿½ï¿½Â¹ï¿½ï¿½ï¿½ï¿½Ï©\ï¿½ï¿½qï¿½nLÓ ï¿½e.!ï¿½h#ï¿½ï¿½c&#x1a;ï¿½&#x8;&#x7;&#x1c;ï¿½ï¿½&#x1;41Ä›T&#x2;Yï¿½&#x1;ï¿½ï¿½Qï¿½ï¿½ï¿½ï¿½&#x1e;ï¿½h&#x4;ï¿½lw&#x11;;&#xd;
+ï¿½&#xd;
+p&#x7f;)ï¿½ï¿½ï¿½iï¿½&#x11;&#x12;&#x12;;=&#x16;&#x5;Dï¿½&#x1f;ï¿½`ï¿½ï¿½ï¿½cf9&#x18;0&#x11;&#x4;Iï¿½&#xe;ï¿½&#x7;&#x1b;ï¿½X&#xb;(_ï¿½GHï¿½ï¿½&#x2;tr^ï¿½&#x3;/ï¿½NM[&#x14; ï¿½|\Cï¿½ï¿½@ï¿½Tsï¿½5ï¿½\ï¿½2&#x15;ï¿½0ï¿½&lt;ï¿½ï¿½ï¿½&#x16;5ï¿½:ï¿½ï¿½&#x0;bï¿½ï¿½}ï¿½ï¿½ï¿½Nï¿½qBÆ¼-ï¿½ï¿½@ï¿½ï¿½Ú°ï¿½~0%ï¿½ï¿½ï¿½uï¿½,ï¿½Wlï¿½ï¿½ï¿½&#x12;}ï¿½ï¿½ï¿½:ï¿½)1ï¿½GQ&#x12;ï¿½ï¿½&#x11;ï¿½Ò¥ï¿½ï¿½Xï¿½RHï¿½ï¿½7&apos;v&#x1c;ï¿½3&#x1c;ï¿½7ï¿½ï¿½%ï¿½sZ&#x19;ï¿½&#x19;)ï¿½nHgï¿½ï¿½ï¿½t&amp;&#x12;ï¿½ï¿½v&#x13;ï¿½pï¿½DL8=Üï¿½Pï¿½$Çž&#x4;Ú”&#x7;ï¿½~8Ù‹ï¿½ï¿½ï¿½h&#x11;cÇ­Ô€fï¿½QJ&#x5;Fï¿½&#xd;&#x2;ï¿½ï¿½ï¿½bï¿½h-ï¿½az Ý€I&lt;ï¿½A8&#x1;&#x17;.&#x3;Ü‡,C0ï¿½9ï¿½ï¿½y7ï¿½xï¿½Çº+&#x5;&#xd;
+ï¿½&#x13;Amï¿½ï¿½ï¿½ï¿½Uï¿½&#x17;Sï¿½ï¿½=iï¿½q&#x11;s&#x3;Ç°ï¿½&#xf;Eï¿½&#x1a;ï¿½ï¿½fï¿½,a&#x0;&#x8;ï¿½d&#x16;ï¿½ï¿½ï¿½ï¿½&#x1a;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½&quot;!ï¿½5Ý,	cï¿½ï¿½hï¿½YÄ–&lt;ï¿½ï¿½2)$ï¿½q`&#x11;Dï¿½&#xc;ï¿½yï¿½4)&#x0;@&#x3;ï¿½&#x7f;|ï¿½Hfï¿½,ï¿½sï¿½&#x1c;&#x10;Xï¿½ï¿½&#xe;&#x7;/ï¿½$M&#x16;&#x1;ï¿½ï¿½&#x18;Q4Ò?ï¿½ï¿½ï¿½z%}&#x1;ï¿½ï¿½&#x7f;ï¿½Lï¿½!ï¿½Mï¿½Gï¿½ï¿½ï¿½&#x15;j&#x4;&#x1f;ï¿½ï¿½&#x5;ï¿½ï¿½ï¿½ï¿½yï¿½aï¿½&#xd;
+ï¿½KDï¿½5ï¿½ï¿½&#x8;ï¿½ï¿½ï¿½ï¿½&#x19;ï¿½ï¿½clï¿½Ûº&apos;&#x6;ï¿½1	ï¿½&#x4;&#x7f;ï¿½ï¿½&#xd;
+ï¿½ï¿½tJï¿½u[eB&#x7;ï¿½ï¿½&lt;ï¿½Gï¿½ï¿½ï¿½Zï¿½.ì³ï¿½Jlaï¿½&#xb;~ï¿½/ï¿½k&#xe;&#x0;ï¿½,ï¿½ï¿½	|!A;ñ‡µ‚ï¿½?ï¿½&#x18;&#x38d;jqï¿½ï¿½vï¿½`ï¿½ï¿½0&#x1f;]!pS.DYï¿½ï¿½:`M&#x17;ï¿½ï¿½&#x4;ï¿½&#x93;ï¿½ï¿½&gt;ï¿½ï¿½Vï¿½ï¿½&#x7f;vï¿½ï¿½&#x1;&#xd;vBï¿½gï¿½]ï¿½ï¿½;ï¿½ï¿½ÅŒï¿½ï¿½ï¿½&#x8;&lt;ï¿½&#xd;BKï¿½Eï¿½fï¿½ï¿½ï¿½ï¿½i&#x3;ï¿½C&#x0;ï¿½0ï¿½&#x1a;ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,v%ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½&#x14;ï¿½ï¿½ï¿½ï¿½ï¿½&#x4;&#x18;{jï¿½&#x0;ï¿½Rc&#x15;ï¿½ï¿½ï¿½}ï¿½}ï¿½&#x7f;Dï¿½&#x13;ï¿½8ï¿½ï¿½ï¿½ï¿½Í¥((;Ì†ï¿½ï¿½ï¿½ï¿½ï¿½×¡HxDï¿½	ï¿½ï¿½IV&#x1b;Bï¿½&#x14;&gt;Æ«ï¿½ï¿½pï¿½ï¿½ï¿½.ï¿½ï¿½yï¿½ï¿½&quot;Eï¿½h&gt;ï¿½&#xd;
+ï¿½&lt;ï¿½&#x4;Wï¿½oMï¿½ï¿½ï¿½ï¿½ï¿½ï¿½&#x2;ï¿½.ï¿½ï¿½ï¿½[0ï¿½~ï¿½Ã¿ï¿½Ù·`ï¿½ï¿½ï¿½Wdï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.Kï¿½ï¿½\&#x16;ï¿½ï¿½$ï¿½ï¿½pï¿½&#xf;ï¿½ï¿½+ï¿½&#x1a;j|N,ï¿½qï¿½ï¿½ï¿½f%ï¿½&#x11;ï¿½ï¿½ï¿½3NjO&lt;ï¿½Û©Jï¿½&#xb;Dï¿½ |ï¿½ï¿½q`ï¿½ï¿½ï¿½ï¿½Ð—ï¿½Ì´:ï¿½Lt^&#xb;ï¿½ï¿½.Æ»ï¿½&lt;gï¿½cï¿½&#xd;S&apos;ï¿½ï¿½ï¿½ï¿½ï¿½&gt;^ï¿½ï¿½&#x13;ï¿½ï¿½&#x1d;Ô›ï¿½ï¿½5ï¿½}ï¿½ï¿½%Ë®ï¿½ï¿½ï¿½@ï¿½Aï¿½&#xd;&#xb;OÈºyï¿½*ï¿½ï¿½6?ï¿½ï¿½+Ü¤è·¥&#x7f;!&#x1;ï¿½ï¿½&#x13;ï¿½T&#x5;[|ï¿½&#x0;4ï¿½ï¿½&#x19;ï¿½FQï¿½Ø«&#x1a;Qï¿½ï¿½ï¿½&#xe;4ï¿½&#x7;ï¿½sv&#x2;k&#x1e;ï¿½6ï¿½ï¿½&#x18;@hï¿½ï¿½ï¿½ï¿½O&#x1e;gï¿½ï¿½ï¿½`ï¿½X0N&#x16;ï¿½*&apos;ï¿½ï¿½rIï¿½*d4ï¿½ï¿½&#x2;jï¿½uï¿½bï¿½v/ï¿½ï¿½9ï¿½ï¿½#N&#x17;&#x8;xï¿½Hï¿½ ZAÙ¬ï¿½ï¿½jï¿½ï¿½ï¿½3BXï¿½Aï¿½ï¿½z+ï¿½ï¿½&#x13;Sï¿½Å‰ï¿½}v&#x1f;ï¿½ï¿½ï¿½ï¿½ï¿½zlï¿½&#x1d;Vï¿½ï¿½yï¿½&#xd;
+ï¿½&#x2;&amp;!Iï¿½Aï¿½mï¿½ï¿½ï¿½&amp;&#x1d;j&#x13;ï¿½&#x1a;ï¿½,@ï¿½&#x4;ï¿½ï¿½&#x1;ï¿½&#x1d;Uï¿½&#x1e;;ï¿½&lt;ï¿½ï¿½ï¿½ï¿½^ï¿½j&#x12;]ï¿½ï¿½ï¿½ugzß‘;&#xf;2ï¿½ï¿½N##ï¿½Ñ¼ï¿½&#x0;&gt;ï¿½&#x8;ï¿½ï¿½ï¿½+jï¿½&lt;ï¿½ï¿½ï¿½ï¿½+ï¿½rË·oL^&gt;ï¿½ï¿½ï¿½&#x7;ï¿½vï¿½Ü®ï¿½ï¿½4y$&apos;ï¿½0&#x8;ï¿½2&lt;|Xï¿½o&apos;ï¿½ï¿½&#xd;
+&#xd;
+}2;&#x1f;	_ï¿½_ï¿½Øï¿½ï¿½ÈŸï¿½+ï¿½ï¿½&#x18;ï¿½sï¿½ï¿½1lrï¿½!ï¿½Tï¿½t&#xc;ï¿½fo&#x4;ï¿½ï¿½:&#xe;ï¿½ï¿½ï¿½ï¿½ï¿½&#x1;ï¿½Yï¿½%6&#x1f;&#x0;&#x0;</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-308" enabled="false">
+              <stringProp name="HTTPSampler.domain">mozilla-ohttp.fastly-edge.com</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">ï¿½&#x0; &#x0;&#x1;&#x0;&#x1;X%ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½&#x18;ï¿½ï¿½&#x17;4xurXï¿½&#x7;1ï¿½ï¿½_*[&gt;&#xd;
+ï¿½ï¿½ï¿½ï¿½&#x16;&#xe;&#x2;ï¿½ï¿½G,&#x1f;Aï¿½q=ï¿½4ï¿½wï¿½=ï¿½$}jdï¿½ï¿½ï¿½bï¿½Oï¿½&#xe;&#xd;
+v:ï¿½aï¿½T@ï¿½afï¿½ï¿½&#x0;Vï¿½È¡ï¿½&#x2;^ï¿½L&#x16;ï¿½&#x2;ï¿½p&#x10;ï¿½@ï¿½gT_&#x14;ï¿½7U;Ø—ï¿½`xS&#x5;ï¿½&#x2;J:ï¿½&lt;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`&#x15;Vï¿½Ú©hh!ï¿½ï¿½ï¿½C3ï¿½ï¿½ï¿½#&#x1c;k33&#xc;Uï¿½J0&#x6;ï¿½ï¿½È¿ï¿½ï¿½Ø—ï¿½Uï¿½&quot;Wï¿½Eh*Fï¿½&#x7;ï¿½&#x10;ï¿½k{Ùœ&#x14;ï¿½Kï¿½P955ï¿½ï¿½&#x14;ï¿½&#x16;h/R7ï¿½A&#x1e;ï¿½&#x1a;ï¿½}ï¿½ï¿½tï¿½oï¿½ï¿½^ï¿½ï¿½[&#x1e;ï¿½)ï¿½ï¿½ï¿½qÓ—&quot;ï¿½H&apos;+nï¿½ï¿½/ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½^ï¿½ï¿½$ï¿½ï¿½ï¿½Eï¿½wD&#xd;ï¿½uï¿½/ï¿½Sï¿½;5ï¿½&#x17;&#x12;hï¿½&#x17;&#x1e;ï¿½ï¿½mï¿½ï¿½gï¿½/ï¿½&#x13;ï¿½\ï¿½ï¿½Xï¿½ï¿½ï¿½Wï¿½ï¿½&#x11;ï¿½&#x10;ï¿½ï¿½ï¿½ï¿½&#x18;^ï¿½#ï¿½#ï¿½&#xc;ï¿½ï¿½r&amp;|Nï¿½&#x1e;ØªJï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½&#x11; ï¿½ï¿½5ï¿½ï¿½ï¿½&quot;,ï¿½ï¿½$Wï¿½Mï¿½&#x12;ï¿½ï¿½xï¿½Jï¿½	&#x8;+&#x1f;ï¿½ï¿½Ä»:Vï¿½ï¿½ï¿½^ï¿½ï¿½&gt;jï¿½Iï¿½=aï¿½ï¿½lï¿½ï¿½&#x1b;ï¿½&#xc;vï¿½ï¿½ï¿½ï¿½ï¿½w.&#xc;&#xe;ï¿½	t&#xe;ï¿½ï¿½\Zï¿½ï¿½ï¿½oï¿½eï¿½tï¿½&#x11;$$ï¿½ß®=Kï¿½?ï¿½ï¿½Mï¿½ï¿½2ï¿½zp=ï¿½&#xe;\_q&#x1a;0&#x5;_j&quot;cï¿½w2zï¿½ï¿½1ï¿½Íï¿½&#x1e;hï¿½ï¿½xCï¿½&#x8;ï¿½ï¿½ï¿½ï¿½ï¿½,&#x5;&#x16;&#x18;52d&#x15;sï¿½;ï¿½Â¬ï¿½&gt;gï¿½ï¿½&#x0;ï¿½4ï¿½Gwï¿½&#x4;ï¿½ï¿½\ã£»oï¿½ï¿½&#x14;ï¿½kTï¿½~&#x1f;ï¿½8ï¿½1ï¿½8P*kï¿½ï¿½</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-309" enabled="false">
+              <stringProp name="HTTPSampler.domain">mozilla-ohttp.fastly-edge.com</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">ï¿½&#x0; &#x0;&#x1;&#x0;&#x1;U+ï¿½ï¿½ï¿½ï¿½^É¼ï¿½pYTz;ï¿½&#xd;
+u[fï¿½yÑ§ï¿½ï¿½ï¿½]ï¿½#ï¿½&#x2;ï¿½\ï¿½:9ï¿½&#x3;ï¿½&#x10;&#xb;&#x19;&#x16;ï¿½&#x17;ï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½ï¿½&#x15;ï¿½ï¿½lï¿½ï¿½k&#xd;
+{y&#x11;ï¿½ï¿½Lï¿½0ï¿½ï¿½ï¿½ï¿½&#x10;ï¿½È§&#x1d;ï¿½ï¿½ï¿½=&#x1b;&gt;9ï¿½ï¿½&#x1;ï¿½ï¿½ï¿½&#x16;ï¿½ &#xd;ï¿½?ï¿½$ï¿½Doï¿½ï¿½{ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½&quot;Æˆï¿½ï¿½8×“,ï¿½dï¿½Ò ï¿½#Bï¿½&#x14;Uï¿½e\ï¿½ï¿½Aï¿½Qï¿½&#x1c;ï¿½Q&#x5;ï¿½ï¿½ï¿½ï¿½+}ï¿½Ø¾-Hï¿½/ï¿½Qï¿½&#xb;{ï¿½Õ™ï¿½ï¿½&#x1b;ï¿½ï¿½&#xd;
+ï¿½&#x1f;ï¿½0ï¿½!ï¿½ï¿½ï¿½&#x6;ï¿½&#xd;
+ï¿½Wï¿½WA4pn(Yb_ï¿½ï¿½&#x4;&#x7;!ï¿½FÄŠ&#x1d;$&#xe;ï¿½ï¿½^ï¿½ï¿½yï¿½qï¿½Dï¿½&#x7f;SfPï¿½ï¿½ï¿½ï¿½7ï¿½&#x19;ï¿½&#x15;ï¿½ï¿½ï¿½7ï¿½fï¿½	ï¿½ï¿½ï¿½ï¿½ï¿½vCï¿½0h9q+ï¿½-&gt;ï¿½ï¿½fï¿½;&amp;ï¿½/ï¿½{ï¿½ï¿½ï¿½^_ï¿½ï¿½xï¿½&#x16;ï¿½ï¿½ï¿½&#x5;ï¿½ï¿½XVï¿½eï¿½ï¿½.ï¿½ï¿½ï¿½ï¿½3&#x7f;Ú›ï¿½.ï¿½j.ï¿½ï¿½&#x1e;}ï¿½vï¿½ï¿½ï¿½|ï¿½ï¿½ï¿½Þ©ï¿½wï¿½!ï¿½ï¿½ï¿½ï¿½(Uï¿½ï¿½g&#x12;ï¿½Nï¿½ï¿½f+ï¿½ï¿½9&amp;ï¿½7bï¿½ï¿½t&#xd;ï¿½&#x1e;ï¿½ï¿½ï¿½Q&gt;nrAï¿½&#x1;4Fzï¿½ï¿½&lt;ï¿½Fï¿½4&#x3;ï¿½igWï¿½=&#x1a;&#xc;?G&#x1d;ï¿½_@ï¿½ï¿½ï¿½a(ï¿½7ï¿½Ioï¿½Dï¿½ï¿½:Ê¿ï¿½ï¿½-ï¿½Kï¿½â“¥&#x19;&#x13;ï¿½ï¿½ï¿½ï¿½ï¿½&#x10;&quot;ï¿½]C &#x0;ï¿½`-ï¿½*jï¿½ï¿½&#x84;Iï¿½yï¿½ï¿½&#x16;&#x1c;&#x1a;&#x1a;ï¿½ï¿½(`hï¿½ï¿½ï¿½ï¿½lï¿½ï¿½ï¿½&#x17;ï¿½ï¿½&#xd;
+Ò¬Tï¿½&#x19;%&#x19;ï¿½,ï¿½~ï¿½jï¿½ï¿½Æ“ ÙŸï¿½h&#xc;ï¿½&#x1d;5ï¿½/!ï¿½ï¿½Hï¿½&#x16;&#x1;-?Qï¿½Sï¿½ï¿½ï¿½yï¿½</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="AUTENTICACIÃ“N AL SISTEMA" enabled="true">
+              <stringProp name="TestPlan.comments">Detected the start of a redirect chain</stringProp>
+              <stringProp name="HTTPSampler.domain">webflowerslm.azurewebsites.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
+              <stringProp name="HTTPSampler.path">/(S(hcyfeo3qljjga2q14vihicgn))/Default_new.aspx</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="__LASTFOCUS" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">__LASTFOCUS</stringProp>
+                    <stringProp name="Argument.value"></stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="__EVENTTARGET" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">__EVENTTARGET</stringProp>
+                    <stringProp name="Argument.value"></stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="__EVENTARGUMENT" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">__EVENTARGUMENT</stringProp>
+                    <stringProp name="Argument.value"></stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="__VIEWSTATE" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">__VIEWSTATE</stringProp>
+                    <stringProp name="Argument.value">XL/FMW2Wz9/TVCmyR0Uso0a9dKZ8WZmwCYJa6sB8gRNKc7WCert5aGxPlDddo1H/i/SsjMoNcLGTUdmlSm5lzlbh3wPpsD4927bxwvNCLc/3UO1i4bWUw14R1aKswW+I9BhJs9EEbqOXItvFCI4f6+DJEDHdRTJyf/zjYPJA4RwzAloW/94uF+l94TPo+8Kfpj4ICI9R3uimuZ4QT53TEoFbe4eKp9ZfvgJJ6zzlt4t+gncg1K7cqKBLcz9G5HjsN75OBz9u1ez3V7zSscutUUlhSFnQmmOlZQkNirebFU1gj+ky/8rwZqf/Yp2Kwnqb5vLD7g64qrkXwCIBJ1ZesC8FkrefLbXRmr8ggfJZ/e6oYeonzmvf8EdQmPQUgiBY1/GRDsNYHmbtgDwDDdjz7gOi11JJOJMeR1qbUs+mWP96APAPPIAameMW57bdDbDDhr2QTo3328c7ep/ztbGp8YSAuPmW8QZZOjj8fDsYRb2C/bPKyO5MWEIuyUupBxvKeS9n1JLAJfWNUWtmTSSmtCfMtIyBDvNSETWYqn/QfN5mOqLGNE86F+d8P8SXvkBdPm+rW+uljsiUEtQn/tnRwkYFpUNCDrZDhYVF9QqhXyLfHdgQBCvvE9qaXM1JX6RCXWlCaUFWNU3pkI5Z/SAHdNFC7ezhO16Yks2BAa832ypxfjIP9DDYk07+f1UDPORavmABQzLQIBHuB+xyS4ZLGorYIebjxpovELBV3Gj6qSsxFE9z9xn50/HgzZBMyYgz3areexySjplfI7SmeQk6QYFukwwOcYDGIXGYgPqCo8JWdtc5/Vyjbu09ERweyZdv2tIoqQ==</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="__VIEWSTATEGENERATOR" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">__VIEWSTATEGENERATOR</stringProp>
+                    <stringProp name="Argument.value">13DDFBE2</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="__EVENTVALIDATION" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">__EVENTVALIDATION</stringProp>
+                    <stringProp name="Argument.value">zZreT6Jz5padKKRIHxaWc2I/1Q2k0AjbqO7poLk+T95VpPoM1psOjV9g5G7ViUXmQ0OX91xJiG2UTGD+jlkZRqb1TzrRg9Y2VBl3PcQPMQMe3sWwHuetdb0h8hfwtpfECUQ1RbFUnKCU5EKbss1eOrOuS/oS627RPFx69RilLRhMfu1nhh510sum85O0W5bVHUrsEx7xGBzXj5LPLDMsUbHJ28FnG9nymwIWsT803DytnvR16o4RioiVOQc46Ibre23QcmNe6d8+Q1T4X+6sFLfoiiU=</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="txtAction" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">txtAction</stringProp>
+                    <stringProp name="Argument.value"></stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="txtEncryptDecryptKey" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">txtEncryptDecryptKey</stringProp>
+                    <stringProp name="Argument.value">FB1805C4B74B42EA93FDF004737774ED</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="txtPasswordHidden" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">txtPasswordHidden</stringProp>
+                    <stringProp name="Argument.value"></stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="txtOffset" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">txtOffset</stringProp>
+                    <stringProp name="Argument.value">-5</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="txtUserName" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">txtUserName</stringProp>
+                    <stringProp name="Argument.value">U2FsdGVkX1+ZViO4BgS0Qyk25S0eADdUdtm2TGo7m+0=</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="txtPassword" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">txtPassword</stringProp>
+                    <stringProp name="Argument.value">U2FsdGVkX18/ukXWDO+E3p5+iwUl6m0BcTldU95pjUU=</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="btnSigIn" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">btnSigIn</stringProp>
+                    <stringProp name="Argument.value">Iniciar sesiÃ³n</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-311" enabled="true">
+              <stringProp name="HTTPSampler.domain">webflowerslm.azurewebsites.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/(S(hcyfeo3qljjga2q14vihicgn))/Main.aspx</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-339" enabled="true">
+              <stringProp name="HTTPSampler.domain">webflowerslm.azurewebsites.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/(S(hcyfeo3qljjga2q14vihicgn))/Header2.aspx</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-338" enabled="true">
+              <stringProp name="HTTPSampler.domain">webflowerslm.azurewebsites.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/(S(hcyfeo3qljjga2q14vihicgn))/DefaultPages/DefaultHome.aspx</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-340" enabled="true">
+              <stringProp name="HTTPSampler.domain">webflowerslm.azurewebsites.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/(S(hcyfeo3qljjga2q14vihicgn))/General/MenuHtml5.aspx</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-365" enabled="true">
+              <stringProp name="HTTPSampler.domain">azghtnotifications.azurewebsites.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/api/negotiate/cromero/LM</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="code" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">code</stringProp>
+                    <stringProp name="Argument.value">noBo3y21Z8Itxg2tWFr3KhIH9mZtuCThFZQaICLc2hxHAzFuVAGDLw==</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-364" enabled="true">
+              <stringProp name="HTTPSampler.domain">webflowerseventhubcep.azurewebsites.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/notificationhub/negotiate</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="clientProtocol" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">clientProtocol</stringProp>
+                    <stringProp name="Argument.value">1.5</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="UserID" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">UserID</stringProp>
+                    <stringProp name="Argument.value">397</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="CompanyCode" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">CompanyCode</stringProp>
+                    <stringProp name="Argument.value">LM</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="callback" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">callback</stringProp>
+                    <stringProp name="Argument.value">jQuery18206179053668204343_1767971038246</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="_" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">_</stringProp>
+                    <stringProp name="Argument.value">1767971039457</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-369" enabled="true">
+              <stringProp name="HTTPSampler.domain">webflowers.service.signalr.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/client/negotiate?hub=notificationhub&amp;negotiateVersion=1</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">OPTIONS</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-372" enabled="false">
+              <stringProp name="HTTPSampler.domain">webflowers.service.signalr.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/client/negotiate?hub=notificationhub&amp;negotiateVersion=1</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-371" enabled="true">
+              <stringProp name="HTTPSampler.domain">webflowerseventhubcep.azurewebsites.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/notificationhub/connect</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="transport" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">transport</stringProp>
+                    <stringProp name="Argument.value">longPolling</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="clientProtocol" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">clientProtocol</stringProp>
+                    <stringProp name="Argument.value">1.5</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="UserID" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">UserID</stringProp>
+                    <stringProp name="Argument.value">397</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="CompanyCode" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">CompanyCode</stringProp>
+                    <stringProp name="Argument.value">LM</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="connectionToken" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">connectionToken</stringProp>
+                    <stringProp name="Argument.value">uZ19OicQrHTORa96M3q/ZzjTYRTYX/khyGUNaJz+a59kEYmGWLIixIC6Z5Iqba+nxhnyr5D89bZRzvo7QpxzLnmGdSsjBDBnQXFWEA8jj86Oiu+Azv+Fm464DNxFhrK0</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="callback" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">callback</stringProp>
+                    <stringProp name="Argument.value">jQuery18206179053668204343_1767971038246</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="_" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">_</stringProp>
+                    <stringProp name="Argument.value">1767971040310</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-373" enabled="true">
+              <stringProp name="HTTPSampler.domain">webflowerseventhubcep.azurewebsites.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/notificationhub/start</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="transport" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">transport</stringProp>
+                    <stringProp name="Argument.value">longPolling</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="clientProtocol" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">clientProtocol</stringProp>
+                    <stringProp name="Argument.value">1.5</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="UserID" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">UserID</stringProp>
+                    <stringProp name="Argument.value">397</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="CompanyCode" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">CompanyCode</stringProp>
+                    <stringProp name="Argument.value">LM</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="connectionToken" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">connectionToken</stringProp>
+                    <stringProp name="Argument.value">uZ19OicQrHTORa96M3q/ZzjTYRTYX/khyGUNaJz+a59kEYmGWLIixIC6Z5Iqba+nxhnyr5D89bZRzvo7QpxzLnmGdSsjBDBnQXFWEA8jj86Oiu+Azv+Fm464DNxFhrK0</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="callback" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">callback</stringProp>
+                    <stringProp name="Argument.value">jQuery18206179053668204343_1767971038246</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="_" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">_</stringProp>
+                    <stringProp name="Argument.value">1767971040916</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-374" enabled="false">
+              <stringProp name="HTTPSampler.domain">webflowerseventhubcep.azurewebsites.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/notificationhub/poll</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="transport" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">transport</stringProp>
+                    <stringProp name="Argument.value">longPolling</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="clientProtocol" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">clientProtocol</stringProp>
+                    <stringProp name="Argument.value">1.5</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="UserID" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">UserID</stringProp>
+                    <stringProp name="Argument.value">397</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="CompanyCode" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">CompanyCode</stringProp>
+                    <stringProp name="Argument.value">LM</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="connectionToken" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">connectionToken</stringProp>
+                    <stringProp name="Argument.value">uZ19OicQrHTORa96M3q/ZzjTYRTYX/khyGUNaJz+a59kEYmGWLIixIC6Z5Iqba+nxhnyr5D89bZRzvo7QpxzLnmGdSsjBDBnQXFWEA8jj86Oiu+Azv+Fm464DNxFhrK0</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="callback" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">callback</stringProp>
+                    <stringProp name="Argument.value">jQuery18206179053668204343_1767971038247</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="messageId" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">messageId</stringProp>
+                    <stringProp name="Argument.value">s-0,96D0CB0|1,96E2B02|2,96B7011|3,96AE7AC|4,96C03C1</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="_" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">_</stringProp>
+                    <stringProp name="Argument.value">1767971040917</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-375" enabled="false">
+              <stringProp name="HTTPSampler.domain">webflowerseventhubcep.azurewebsites.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/notificationhub/poll</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="transport" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">transport</stringProp>
+                    <stringProp name="Argument.value">longPolling</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="clientProtocol" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">clientProtocol</stringProp>
+                    <stringProp name="Argument.value">1.5</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="UserID" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">UserID</stringProp>
+                    <stringProp name="Argument.value">397</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="CompanyCode" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">CompanyCode</stringProp>
+                    <stringProp name="Argument.value">LM</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="connectionToken" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">connectionToken</stringProp>
+                    <stringProp name="Argument.value">uZ19OicQrHTORa96M3q/ZzjTYRTYX/khyGUNaJz+a59kEYmGWLIixIC6Z5Iqba+nxhnyr5D89bZRzvo7QpxzLnmGdSsjBDBnQXFWEA8jj86Oiu+Azv+Fm464DNxFhrK0</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="callback" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">callback</stringProp>
+                    <stringProp name="Argument.value">jQuery18206179053668204343_1767971038247</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="messageId" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">messageId</stringProp>
+                    <stringProp name="Argument.value">s-0,96D0CB6|1,96E2B14|2,96B7017|3,96AE7B5|4,96C03CD</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="_" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">_</stringProp>
+                    <stringProp name="Argument.value">1767971046028</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+          </hashTree>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+          </TransactionController>
+          <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-376" enabled="true">
+              <stringProp name="HTTPSampler.domain">webflowerseventhubcep.azurewebsites.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/notificationhub/poll</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="transport" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">transport</stringProp>
+                    <stringProp name="Argument.value">longPolling</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="clientProtocol" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">clientProtocol</stringProp>
+                    <stringProp name="Argument.value">1.5</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="UserID" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">UserID</stringProp>
+                    <stringProp name="Argument.value">397</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="CompanyCode" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">CompanyCode</stringProp>
+                    <stringProp name="Argument.value">LM</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="connectionToken" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">connectionToken</stringProp>
+                    <stringProp name="Argument.value">uZ19OicQrHTORa96M3q/ZzjTYRTYX/khyGUNaJz+a59kEYmGWLIixIC6Z5Iqba+nxhnyr5D89bZRzvo7QpxzLnmGdSsjBDBnQXFWEA8jj86Oiu+Azv+Fm464DNxFhrK0</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="callback" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">callback</stringProp>
+                    <stringProp name="Argument.value">jQuery18206179053668204343_1767971038247</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="messageId" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">messageId</stringProp>
+                    <stringProp name="Argument.value">s-0,96D0CB6|1,96E2B16|2,96B701B|3,96AE7B8|4,96C03CD</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="_" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">_</stringProp>
+                    <stringProp name="Argument.value">1767971047225</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-381" enabled="true">
+              <stringProp name="HTTPSampler.domain">webflowerseventhubcep.azurewebsites.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/notificationhub/poll</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="transport" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">transport</stringProp>
+                    <stringProp name="Argument.value">longPolling</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                  <elementProp name="clientProtocol" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">clientProtocol</stringProp>
+                    <stringProp name="Argument.value">1.5</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                  <elementProp name="UserID" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">UserID</stringProp>
+                    <stringProp name="Argument.value">397</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                  <elementProp name="CompanyCode" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">CompanyCode</stringProp>
+                    <stringProp name="Argument.value">LM</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                  <elementProp name="connectionToken" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">connectionToken</stringProp>
+                    <stringProp name="Argument.value">uZ19OicQrHTORa96M3q/ZzjTYRTYX/khyGUNaJz+a59kEYmGWLIixIC6Z5Iqba+nxhnyr5D89bZRzvo7QpxzLnmGdSsjBDBnQXFWEA8jj86Oiu+Azv+Fm464DNxFhrK0</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                  <elementProp name="callback" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">callback</stringProp>
+                    <stringProp name="Argument.value">jQuery18206179053668204343_1767971038247</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                  <elementProp name="messageId" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">messageId</stringProp>
+                    <stringProp name="Argument.value">s-0,96D0CCA|1,96E2B25|2,96B7031|3,96AE7CC|4,96C03DC</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                  <elementProp name="_" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">_</stringProp>
+                    <stringProp name="Argument.value">1767971055838</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-383" enabled="true">
+              <stringProp name="HTTPSampler.domain">webflowerslm.azurewebsites.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/(S(hcyfeo3qljjga2q14vihicgn))/Calendar.htm</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+          </hashTree>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+          </TransactionController>
+          <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-388" enabled="true">
+              <stringProp name="HTTPSampler.domain">webflowerseventhubcep.azurewebsites.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/notificationhub/poll</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="transport" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">transport</stringProp>
+                    <stringProp name="Argument.value">longPolling</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="clientProtocol" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">clientProtocol</stringProp>
+                    <stringProp name="Argument.value">1.5</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="UserID" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">UserID</stringProp>
+                    <stringProp name="Argument.value">397</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="CompanyCode" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">CompanyCode</stringProp>
+                    <stringProp name="Argument.value">LM</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="connectionToken" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">connectionToken</stringProp>
+                    <stringProp name="Argument.value">uZ19OicQrHTORa96M3q/ZzjTYRTYX/khyGUNaJz+a59kEYmGWLIixIC6Z5Iqba+nxhnyr5D89bZRzvo7QpxzLnmGdSsjBDBnQXFWEA8jj86Oiu+Azv+Fm464DNxFhrK0</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="callback" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">callback</stringProp>
+                    <stringProp name="Argument.value">jQuery18206179053668204343_1767971038247</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="messageId" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">messageId</stringProp>
+                    <stringProp name="Argument.value">s-0,96D0CDF|1,96E2B32|2,96B7040|3,96AE7DC|4,96C03F1</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="_" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">_</stringProp>
+                    <stringProp name="Argument.value">1767971065381</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-390" enabled="true">
+              <stringProp name="HTTPSampler.domain">webflowerslm.azurewebsites.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/(S(hcyfeo3qljjga2q14vihicgn))/Calendar.htm</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+          </hashTree>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+          </TransactionController>
+          <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-393" enabled="true">
+              <stringProp name="HTTPSampler.domain">webflowerseventhubcep.azurewebsites.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/notificationhub/poll</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="transport" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">transport</stringProp>
+                    <stringProp name="Argument.value">longPolling</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="clientProtocol" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">clientProtocol</stringProp>
+                    <stringProp name="Argument.value">1.5</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="UserID" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">UserID</stringProp>
+                    <stringProp name="Argument.value">397</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="CompanyCode" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">CompanyCode</stringProp>
+                    <stringProp name="Argument.value">LM</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="connectionToken" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">connectionToken</stringProp>
+                    <stringProp name="Argument.value">uZ19OicQrHTORa96M3q/ZzjTYRTYX/khyGUNaJz+a59kEYmGWLIixIC6Z5Iqba+nxhnyr5D89bZRzvo7QpxzLnmGdSsjBDBnQXFWEA8jj86Oiu+Azv+Fm464DNxFhrK0</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="callback" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">callback</stringProp>
+                    <stringProp name="Argument.value">jQuery18206179053668204343_1767971038247</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="messageId" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">messageId</stringProp>
+                    <stringProp name="Argument.value">s-0,96D0CF4|1,96E2B49|2,96B7057|3,96AE7F8|4,96C0403</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="_" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">_</stringProp>
+                    <stringProp name="Argument.value">1767971075345</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+          </hashTree>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+          </TransactionController>
+          <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-396" enabled="true">
+              <stringProp name="HTTPSampler.domain">webflowerseventhubcep.azurewebsites.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/notificationhub/poll</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="transport" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">transport</stringProp>
+                    <stringProp name="Argument.value">longPolling</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="clientProtocol" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">clientProtocol</stringProp>
+                    <stringProp name="Argument.value">1.5</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="UserID" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">UserID</stringProp>
+                    <stringProp name="Argument.value">397</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="CompanyCode" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">CompanyCode</stringProp>
+                    <stringProp name="Argument.value">LM</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="connectionToken" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">connectionToken</stringProp>
+                    <stringProp name="Argument.value">uZ19OicQrHTORa96M3q/ZzjTYRTYX/khyGUNaJz+a59kEYmGWLIixIC6Z5Iqba+nxhnyr5D89bZRzvo7QpxzLnmGdSsjBDBnQXFWEA8jj86Oiu+Azv+Fm464DNxFhrK0</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="callback" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">callback</stringProp>
+                    <stringProp name="Argument.value">jQuery18206179053668204343_1767971038247</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="messageId" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">messageId</stringProp>
+                    <stringProp name="Argument.value">s-0,96D0CFA|1,96E2B52|2,96B705E|3,96AE804|4,96C0413</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="_" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">_</stringProp>
+                    <stringProp name="Argument.value">1767971082739</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+          </hashTree>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+          </TransactionController>
+          <hashTree>
+      
+          </hashTree>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+          </TransactionController>
+          <hashTree>
+      
+          </hashTree>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+          </TransactionController>
+          <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-400" enabled="true">
+              <stringProp name="HTTPSampler.domain">webflowerseventhubcep.azurewebsites.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/notificationhub/poll</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="transport" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">transport</stringProp>
+                    <stringProp name="Argument.value">longPolling</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="clientProtocol" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">clientProtocol</stringProp>
+                    <stringProp name="Argument.value">1.5</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="UserID" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">UserID</stringProp>
+                    <stringProp name="Argument.value">397</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="CompanyCode" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">CompanyCode</stringProp>
+                    <stringProp name="Argument.value">LM</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="connectionToken" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">connectionToken</stringProp>
+                    <stringProp name="Argument.value">uZ19OicQrHTORa96M3q/ZzjTYRTYX/khyGUNaJz+a59kEYmGWLIixIC6Z5Iqba+nxhnyr5D89bZRzvo7QpxzLnmGdSsjBDBnQXFWEA8jj86Oiu+Azv+Fm464DNxFhrK0</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="callback" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">callback</stringProp>
+                    <stringProp name="Argument.value">jQuery18206179053668204343_1767971038247</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="messageId" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">messageId</stringProp>
+                    <stringProp name="Argument.value">s-0,96D0D50|1,96E2B8E|2,96B70A0|3,96AE849|4,96C0463</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="_" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">_</stringProp>
+                    <stringProp name="Argument.value">1767971116329</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+          </hashTree>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+          </TransactionController>
+          <hashTree>
+      
+          </hashTree>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+          </TransactionController>
+          <hashTree>
+      
+          </hashTree>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+          </TransactionController>
+          <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-404">
+              <stringProp name="HTTPSampler.domain">webflowerseventhubcep.azurewebsites.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/notificationhub/poll</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="transport" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">transport</stringProp>
+                    <stringProp name="Argument.value">longPolling</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="clientProtocol" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">clientProtocol</stringProp>
+                    <stringProp name="Argument.value">1.5</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="UserID" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">UserID</stringProp>
+                    <stringProp name="Argument.value">397</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="CompanyCode" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">CompanyCode</stringProp>
+                    <stringProp name="Argument.value">LM</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="connectionToken" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">connectionToken</stringProp>
+                    <stringProp name="Argument.value">uZ19OicQrHTORa96M3q/ZzjTYRTYX/khyGUNaJz+a59kEYmGWLIixIC6Z5Iqba+nxhnyr5D89bZRzvo7QpxzLnmGdSsjBDBnQXFWEA8jj86Oiu+Azv+Fm464DNxFhrK0</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="callback" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">callback</stringProp>
+                    <stringProp name="Argument.value">jQuery18206179053668204343_1767971038247</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="messageId" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">messageId</stringProp>
+                    <stringProp name="Argument.value">s-0,96D0DA2|1,96E2BCE|2,96B70E1|3,96AE88E|4,96C04B2</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="_" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">_</stringProp>
+                    <stringProp name="Argument.value">1767971151634</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+          </hashTree>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+          </TransactionController>
+          <hashTree>
+      
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="CONSULTA DE FECHAS Y RESPUESTA DE LA INFORMACIÃ“N">
+              <stringProp name="HTTPSampler.domain">webflowerslm.azurewebsites.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
+              <stringProp name="HTTPSampler.path">/(S(hcyfeo3qljjga2q14vihicgn))/Reports/PostHarvest/PostHarvestConsolidatedBoncheoOld.aspx?xapApplicationName=&amp;menuId=REPORTS_POSTHARVEST_14&amp;caption=Consol+Flor</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="__EVENTTARGET" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">__EVENTTARGET</stringProp>
+                    <stringProp name="Argument.value"></stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="__EVENTARGUMENT" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">__EVENTARGUMENT</stringProp>
+                    <stringProp name="Argument.value"></stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="__VIEWSTATE" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">__VIEWSTATE</stringProp>
+                    <stringProp name="Argument.value">337EbmMm5ZBDxgcyYH3EBW1gCaEYFcD+U17ZqvlcoBaOWN6antJL9kRAomueeZfPw3MR3F30N13Q4zTT9Ue6AGkXC6t2LNyw1QNA/0milHXjIsNEuUtZaH3x+WO5wTw2AQGDxLcMpK1byKyCNgZq85pNziCYBuMtyntSXD5b7slVQvuLjrnyX1B4xcDcuUgNuAiLnywujmVUaHu++HkmOFpicK+RZnvyXx1o7ttiB5SwRbnQsZPvLx2ACl6q0R1QoBG+uBWg+EbCBH7CKdTiz36S48ZS76IEyi1842+GceN3vmikUE0EvNLYAA6aZYa5oRmnaekFoWTdFhjYl9mqxSEzarZ2kowBK/WPcgoWZjuLmsranAdaqIQ/DyknYrJjDasCk2dkYI4OCmcbSd/wi7aIDdfGxf5wUfMXCUB/9hUikoPPTN0qH3yiSylV9+cqoT88o7Dwrh2kR43cZgf9jDN48N6Ft1bcUUjvb0Tj1ZxHVQ6L36bmEG6QpjruNv7UX/O+bz3W06tFibpSJ8X0+fj1FNQfMG99CN7AmgADreroZP0HSEJUWshVqsMwvsMD6Q076CNqzcJQ4DlreXsG2DJ+FWRqQUsMqrBDJHdEavc/1qBMaU1goohCS2MGwXBYkKSC+DEmHv6EHSCx66MKbbuKO7KBAXCeDUPkkSFR9QezFgEbrGMsLTx2sdENQOJD0C03UjwLFiQs69Uf85bi1i3I3QzYYmYb/9Bu4jZWCEzq7gNWboUXVZqSz+6ITNwQkNymdKLMAmZtfw7BvVjbDo2glwYwOWdSwk/W3gALB77tmD77Vg5Jfmu6IJOisYec647MDFxA0xjjSvO5r9vA+ehf8V03+TKJiejZ0+3tHNRsA32XAkqkWX+WArOpb5SImOPtCPRSAby27s0zAqRYLZtfTwBDe8SQw4peDBSmg8e/yWjm2tqwCCZ3PBgWNTg+KpchFeXo/Qk8tBqbRWy9bqnJ0Pc=</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="__VIEWSTATEGENERATOR" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">__VIEWSTATEGENERATOR</stringProp>
+                    <stringProp name="Argument.value">04D1B56A</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="txtCalendarOpener" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">txtCalendarOpener</stringProp>
+                    <stringProp name="Argument.value">txtDateTo</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="txtAction" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">txtAction</stringProp>
+                    <stringProp name="Argument.value"></stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="txtDateFrom" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">txtDateFrom</stringProp>
+                    <stringProp name="Argument.value">3/13/2026</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="txtDateTo" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">txtDateTo</stringProp>
+                    <stringProp name="Argument.value">3/20/2026</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="PivotGrid" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">PivotGrid</stringProp>
+                    <stringProp name="Argument.value">{&amp;quot;callbackState&amp;quot;:&amp;quot;FLDS_CBDEL_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_CBDEL_FSE_CBDEL_qklpDW+pNPFZZ2fkk9ZvtWFNVoRvRxzaQM62i2ONzwX6RyOqGs2e2jBrYj/2NR0eOmTnsKJWU5Z9Rm6as0hIhEdExYP6VsL6LOkRKzmbGjs3vLu1MOBk2uCTMm5KCmcJHql/9D/OnRcH2XYbw7U8SJdIaeRLjhYkBeiRf4zJTLdXwUB/_CBDEL_FVS_CBDEL_H29Om/lHBIb5dciUvyIuq51wd09KaPh45SfHqyaOMNZifYvkX4JcPkzSJELQ269nQGQTfCePjK8VrdpLZWGHEoSgy9aWmG6cIiWdsXbpuHBaT+w8f0LzwMMNqZ4F31SQ34nmQsJm2G7cyYC+7V1SlFtPx8dG9wRrfD6Q8v+u7C9Gvf2dj6JSCEOnUIoOrs5sWZYB1ZVmvn6jCzYAdTXajRzVxX/u33Dk6LSkNDs6cqXulro/GlYDNII0mFLuh9/V5qMbpmwiDRLNEc9KUcpitZZjiu8sRWe/Tb+ISAz6zlXQ+qgUP8xOhwXk/HVD0zrda5OsSaHSoRoZ4Gf4cnljyfOugkSgV7T9w2A3SAnf9DTydC2K1bd3/WfYJWpPnGWxqK6XFGhoG/p3laD2gvgX8IB/Gf8bg/KK+2fwNVHZ37PUpUq3tlFMaKs81qDgLSdzK6s+gOituKHLB2pJjbA/ihLCoZ16nIuBVfpaVlskU+ZAvQQ4fUQZgW4NZDezVGFvOJXarnNr5olkQCHELW/756SODxI=_CBDEL_FVSE_CBDEL_jaPsK3sCMz1iayxUXYwWbbsM7Mifm50y3bubuWC8PBaN1XU/8/fglrCh/dSKs4ky6QA+Fw==_CBDEL_OLSID_CBDEL_ngo5YfL652bRcfzNywTtDQRwy7iFKCrlnrA0kfeePnJlUpW34O1/aMaSlEgYphuBJvuDAg==_CBDEL_FITEMS_CBDEL_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_CBDEL_DSS_CBDEL_OdiYc7cDyWTUis5eO4yjAhh/hAKkqf+jQPTyny6iFAi9Nn35elRGSzPnKWNi3tHYKf/5NpBVHT/YgKs4qysmP4w84+iV7jmi93nLu6FhZDQZm83xNxbmLv+2mxyAdOj7RT80CasEWpbuz/sKED6PkYzi7mnBndqJLozgzI7HPRUiVvdFihfTizJWxownGdHS5h51gKggq3w4XNT/CB1Ukzg9HpjV+/23EXo2NpvC8dCAU4yURUmrFqK8bv+QX7VRNDCLTHcpCqhKYz/oJ1zGfmfXPaS8ut4qw3NLaWWeYjdyp9W8tnEP7wTqgIlYaetCILorEIVmE4Gq9l2hBbOkoZ+QX5X+PmXCNZTXjJt0vuGqMGO3feWelsqTyFeHxDYeAG3sjIX9jqW+n3tO+c9OE1Pxpnk5Dzk1BgnCZM0KA+yDKhfk4yoc69veLuOa8oWfVFHLyWMSlKiCumEfXWpxWlydHuEchZ9laDHfoJYVDpKh64QYKGYV/e/K35rz0uCswoFt/QLc/s80f+ufG/EFPtFrGws6uHKRMzeajms726L0Q/cgTm2frLpHp6It5LzvQfhD8GCmMKcH1c4alQxxIaEMtfYpMLVAhTqo7v4jdwzgUVKiwXqB+PaGYTpjYe9wBQy5jyZC9rJj0IWJbtxoMuKY7T/XNcWhoGkPeXkl/OjH804ua5BznORVRNDHs7pbKmw580Alb3kTtgJOfo0yN2AFviPk7iDuGL1wqDKtRSZa0klTSwObaqt0bh/gQOWyMsyYPtdaD1KeRTMDO2Qnns+y1D4ATYCsORzOje8zZrw3R1adLu0MjFzB6WHkS8/AzOYq7HXPIQVcGgHo0XoYPC1FHCBQnIV3JskrzK4yIL4iaLE2nzb09Y6I+lPLHA8oGh36f9MZ5PuziRJkBPvcY9333mI+7c5lSxmhQ+dd6R0vPnrX0RZ7cZJkZl9aY8xqCcL7nICP3r8QNjOUDLzyICzRmYK58GCriB8u32o8ZAzA1hEwvvNtDI600oYlmoLYzfGmV+wZHlpCKapPFcmh4v3VVTeAC57psOrMUJB2H5Bcjv9rKNBb5o6tDk7daTjir/PtliVtC8aYCXQW+lMc2zBK8FeFvWhVuXbFh7h4VpLkxu0BDX3OwIKo3bGYGd/blT4GljMp+cqDToWrWzlgZIgXcvxYsjCGrnYDZtYKsh7wgIN798iTzmCllqPlNIJPyoz9/Go8jAboKWENd6WPetAhkA1p52WK4qo9up3xzE9oxbqpMISHhkmSHEyOxglomNURQg+TNuBfXGCm9gbAZ3s+CjWzLgNTJ6ZrU8aW9rXNCmazlnh4b5DoJ8hPR1lSmGmpQanmo1DNd1An73+zJ0aPcVttE3FeAzCxr1q0y3P7h3wWCpVttUhpr0O/enyYphuz7UPMkn2aLtjrIug7u6aPpMIFav/zHzldTmg1fM8TW8ukk3FsQ1bUXanP4bSMuIwdm/eQ8SPm4zPefsa6YXUO9alCK47JAewQQFSQkrdeKG8yV4YqHhC+wzz+hCtVxYLYubvOcTaLC48BD9T4tW1U2dxRvVzKMaNfoZG9ntYtk+lXOm55fdt1JeP11+29YhE4225xdiJpbHY3rSMQz2tW/1/ILHMdf//TiDsHTKh34xpWSoCHLh5pfKOBJPFNjb4NuY2Z3V3tAvcLH1BP5N8sCVWwhifULxaxk/WtRT+81XlDsyZ1dqqr6NFs0xiXwZga//SgtsT41EiVp+JhNKK2lH5et3Mch4OrrCP6h33ME2kJf3wb9EEjsIofvD147jdsSZxWAhjKFZUxPEik5K04lsiblgOm7g0AZUb8SGW/ltmuTf6FHHF1Zu/LAnAl13ef9W7+Ohu7sJ4SY2d4gj88BsulgD5wa6Jq2qIGR/y6Ed5w8ILpIZnBl8zhfOzKlS8kOkO87wQUzA8GzaEkizs6WqDizD+aTj9JDgJMOSbAUmrtgTKbhgxfsyYm5dr0lyZye6uMpOlNASsbmuvAaxpuaWaIpsEud+2xaGtdJn6c4u/t7hILmqsHaAbRBMP08uDRPro474+uV/rh1Sl9VtRrd500V6bXTNyleTLKypj4giXaFX9PIJqgfLPdaFQ6aZKcMaaR8XZMdbXRHQnFbzVco2JCFMcSpdzxQVpCGLxWyi046Gr+7OKEwbGd9TvsADFNj3/OW71vg6Gu1aGquclfbFTD1/v4qTsrD8NtEh/vkzw7tkGAtGh96PWWsHWS+2lA8hg8dtKIx+J4myzEAswmU2sCaygsCqjJpBbAHv6eJg0ECiazfMzfXYk2wbAWO6wVFC7JlD43pdhbwlTbkymbV6YOrgytRPpvrJCQ2NOEX+JbO8WMnPj4YyFYER8SBdSwUB7Q0dVlGBed+aOff9TIEuI6ppH6dqr4LlsW87LGfv7IT9SAPEw2GWORoGOLevjtmFHEmy1sKs8JM5B69dlJNa4=_CBDEL_FDT_CBDEL_6XQJVKoDb37Bk0BzGgbXMupcxVbfxncABWMJZq9Kimuv0m8w5mAgB9JN1jPSdD/BNnQvQAwZe2QxpBjvUvRq0qsAWbw1HQRfHSo3DBX5OJdTKle6IvKi+u4nRY50niakcpwkHlAQIpKPLO9slUajFoUn0AoQvjn7Em7JzT2qpdGG3lRvQwCc99PhIjYNQpLfbGgHuHmTVm8elZ2DHsRC5gJWcOw9i2pdRZwBe3mrnuqYpmEus50x3DNRL/oc527JU3WhPa8AHe+XMXqkeNh0CASSLe3JTC3dcwteBgOMNg2evCDoAeLPfv20ZQw5jwfdimgaCQovbtSBtU4IjDoAsjSdIVqWwohvYTPnBhdV/HkkMaavS5eKcjhxt71mS40ilkbnd/yHkyHzx4E4sp0q5QVhdw3SBYg6N607nwNWvCvxH2ZmrY8h+lplsxuRoa9zzITZEOKkdxIBo2pItDiYIEWs4CRP/rtFlZeAQc/5Hb9JgSLy4ei1zYCswT2E/foAvsY1PPUpXHY76tSaU5V56OaG0P1j4NFf5KonSzpFS5+HMJ6tVbVAEDblaJznGOLGlMkCYSZgzI3fOKw6q9SU59S3JbeyQGYBWOmhXFJq1ocF8vm9IewduH8Ewc4ks5A8IeTfRIWXFjX+m/Q2dCddsj37O84KW9MMivuU6j0oM5/YIu26ofxsNmdkhSAx3asdDgHB4WpgskhToovYHTGmhPn//E1ncm+96kNnJ6V2pzqXpVx/1ogCTra5nzkJBQpt78+jLnUNHYEVVS4D49Ocd2Ig4TM=_CBDEL_&amp;quot;}</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="PivotGrid$HM" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">PivotGrid$HM</stringProp>
+                    <stringProp name="Argument.value">{&amp;quot;selectedItemIndexPath&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;checkedState&amp;quot;:&amp;quot;&amp;quot;}</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="PivotGrid$FVM" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">PivotGrid$FVM</stringProp>
+                    <stringProp name="Argument.value">{&amp;quot;selectedItemIndexPath&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;checkedState&amp;quot;:&amp;quot;&amp;quot;}</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="PivotGrid$DXCustFieldsState" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">PivotGrid$DXCustFieldsState</stringProp>
+                    <stringProp name="Argument.value">{&amp;quot;windowsState&amp;quot;:&amp;quot;0:0:-1:100:100:0:-10000:-10000:1:0:0:0&amp;quot;}</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="PivotGrid$DXHFPState" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">PivotGrid$DXHFPState</stringProp>
+                    <stringProp name="Argument.value">{&amp;quot;windowsState&amp;quot;:&amp;quot;0:0:-1:0:0:0:-10000:-10000:1:0:0:0&amp;quot;}</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="DXScript" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">DXScript</stringProp>
+                    <stringProp name="Argument.value">1_10,1_62,1_11,1_12,1_13,1_14,1_19,1_18,7_7,7_5,7_6,7_9,7_4,1_22,1_38,1_16,1_23,1_32,1_33,1_40,1_178</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="DXCss" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">DXCss</stringProp>
+                    <stringProp name="Argument.value">7_13,1_66,1_67,1_68,7_11,7_12,1_72,1_71,1_203,1_205,1_202,../../Styles/General.css</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="__CALLBACKID" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">__CALLBACKID</stringProp>
+                    <stringProp name="Argument.value">PivotGrid</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="__CALLBACKPARAM" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">__CALLBACKPARAM</stringProp>
+                    <stringProp name="Argument.value">c0:P|PN1</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="__EVENTVALIDATION" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.name">__EVENTVALIDATION</stringProp>
+                    <stringProp name="Argument.value">yJp3zskTtho4P6y7AQBAIkabtJbOZLMPrBZv4FRsalvnzdMa8lQOp41Vw5kCPX7qkeivr/q9i3NdruKVhb9cQ86EZSdilCeNfSfYPkb4Y9HuYNLtGfqEwebXVDHrvSKu+nVlR2yEkJ02U9KJ8zJKsSGdHJR9lbMGv/BmJQPvdXyp3L0uTK8EcDV7xyRc1tXuuFnra7E8e9XCHc8QexT7hIQpzCnlINZWZ+yuXaI3PAZRaARORykwo16W/fiMjHISFkf1hviy2z6eFzpueadvoPPM5OitFEpa9alzrvw9whCi1hOE</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+      
+          </hashTree>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+          </TransactionController>
+          <hashTree>
+      
+          </hashTree>
+        </hashTree>
+      </hashTree>
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>false</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>false</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>true</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <hostname>true</hostname>
+            <threadCounts>true</threadCounts>
+            <sampleCount>true</sampleCount>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <BackendListener guiclass="BackendListenerGui" testclass="BackendListener" testname="Backend Listener" enabled="true">
+        <elementProp name="arguments" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments">
+          <collectionProp name="Arguments.arguments">
+            <elementProp name="testName" elementType="Argument">
+              <stringProp name="Argument.name">testName</stringProp>
+              <stringProp name="Argument.value">qaperformance</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="connectionString" elementType="Argument">
+              <stringProp name="Argument.name">connectionString</stringProp>
+              <stringProp name="Argument.value">InstrumentationKey=86fac17b-0f9b-4e43-be51-a1064c523c21;IngestionEndpoint=https://eastus2-3.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus2.livediagnostics.monitor.azure.com/;ApplicationId=41625407-7996-48b0-bd1a-dbb7d1d79823</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="liveMetrics" elementType="Argument">
+              <stringProp name="Argument.name">liveMetrics</stringProp>
+              <stringProp name="Argument.value">true</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="samplersList" elementType="Argument">
+              <stringProp name="Argument.name">samplersList</stringProp>
+              <stringProp name="Argument.value">.*</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="useRegexForSamplerList" elementType="Argument">
+              <stringProp name="Argument.name">useRegexForSamplerList</stringProp>
+              <stringProp name="Argument.value">true</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="logResponseData" elementType="Argument">
+              <stringProp name="Argument.name">logResponseData</stringProp>
+              <stringProp name="Argument.value">OnFailure</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="logSampleData" elementType="Argument">
+              <stringProp name="Argument.name">logSampleData</stringProp>
+              <stringProp name="Argument.value">OnFailure</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+          </collectionProp>
+        </elementProp>
+        <stringProp name="classname">io.github.adrianmo.jmeter.backendlistener.azure.AzureBackendClient</stringProp>
+      </BackendListener>
+      <hashTree/>
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ThreadsStateOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Active Threads Over Time" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+        <longProp name="interval_grouping">500</longProp>
+        <boolProp name="graph_aggregated">false</boolProp>
+        <stringProp name="include_sample_labels"></stringProp>
+        <stringProp name="exclude_sample_labels"></stringProp>
+        <stringProp name="start_offset"></stringProp>
+        <stringProp name="end_offset"></stringProp>
+        <boolProp name="include_checkbox_state">false</boolProp>
+        <boolProp name="exclude_checkbox_state">false</boolProp>
+      </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
+      <hashTree/>
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.BytesThroughputOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Bytes Throughput Over Time" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+        <longProp name="interval_grouping">1000</longProp>
+        <boolProp name="graph_aggregated">false</boolProp>
+        <stringProp name="include_sample_labels"></stringProp>
+        <stringProp name="exclude_sample_labels"></stringProp>
+        <stringProp name="start_offset"></stringProp>
+        <stringProp name="end_offset"></stringProp>
+        <boolProp name="include_checkbox_state">false</boolProp>
+        <boolProp name="exclude_checkbox_state">false</boolProp>
+      </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
+      <hashTree/>
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.HitsPerSecondGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Hits per Second" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+        <longProp name="interval_grouping">1000</longProp>
+        <boolProp name="graph_aggregated">false</boolProp>
+        <stringProp name="include_sample_labels"></stringProp>
+        <stringProp name="exclude_sample_labels"></stringProp>
+        <stringProp name="start_offset"></stringProp>
+        <stringProp name="end_offset"></stringProp>
+        <boolProp name="include_checkbox_state">false</boolProp>
+        <boolProp name="exclude_checkbox_state">false</boolProp>
+      </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
+      <hashTree/>
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ResponseCodesPerSecondGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Response Codes per Second">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+        <longProp name="interval_grouping">1000</longProp>
+        <boolProp name="graph_aggregated">false</boolProp>
+        <stringProp name="include_sample_labels"></stringProp>
+        <stringProp name="exclude_sample_labels"></stringProp>
+        <stringProp name="start_offset"></stringProp>
+        <stringProp name="end_offset"></stringProp>
+        <boolProp name="include_checkbox_state">false</boolProp>
+        <boolProp name="exclude_checkbox_state">false</boolProp>
+      </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
+      <hashTree/>
+      <ProxyControl guiclass="ProxyControlGui" testclass="ProxyControl" testname="HTTP(S) Test Script Recorder" enabled="false">
+        <stringProp name="ProxyControlGui.port">8888</stringProp>
+        <collectionProp name="ProxyControlGui.exclude_list">
+          <stringProp name="-424044440">(?i).*\.(bmp|css|js|gif|ico|jpe?g|png|swf|eot|otf|ttf|mp4|woff|svg|txt|woff2)</stringProp>
+          <stringProp name="-88591710">www\.download\.windowsupdate\.com.*</stringProp>
+          <stringProp name="1323576868">toolbarqueries\.google\..*</stringProp>
+          <stringProp name="1629558731">clients.*\.google.*</stringProp>
+          <stringProp name="-1899150273">api\.bing\.com.*</stringProp>
+          <stringProp name="305776760">(?i).*\.(bmp|css|js|gif|ico|jpe?g|png|swf|eot|otf|ttf|mp4|woff|woff2)[\?;].*</stringProp>
+          <stringProp name="1779943373">us\.update\.toolbar\.yahoo\.com.*</stringProp>
+          <stringProp name="1815174768">safebrowsing.*\.google\.com.*</stringProp>
+          <stringProp name="587935979">g\.msn.*</stringProp>
+          <stringProp name="110431874">.*msg\.yahoo\.com.*</stringProp>
+          <stringProp name="1206954446">tiles.*\.mozilla\.com.*</stringProp>
+          <stringProp name="-1314416226">sqm\.microsoft\.com.*</stringProp>
+          <stringProp name="1726898318">geo\.yahoo\.com.*</stringProp>
+          <stringProp name="-192420923">.*yimg\.com.*</stringProp>
+          <stringProp name="2118375536">www\.google-analytics\.com.*</stringProp>
+          <stringProp name="1739087931">http?://self-repair\.mozilla\.org.*</stringProp>
+          <stringProp name="805311387">windowsupdate\.microsoft\.com.*</stringProp>
+          <stringProp name="-1424663473">.*detectportal\.firefox\.com.*</stringProp>
+          <stringProp name="11072252">.*toolbar\.yahoo\.com.*</stringProp>
+          <stringProp name="-190610036">.*\.google\.com.*/safebrowsing/.*</stringProp>
+          <stringProp name="-958112859">toolbar\.google\.com.*</stringProp>
+          <stringProp name="-1279148329">pgq\.yahoo\.com.*</stringProp>
+          <stringProp name="-1435252351">toolbar\.avg\.com/.*</stringProp>
+          <stringProp name="-576820688">toolbar\.msn\.com.*</stringProp>
+        </collectionProp>
+        <collectionProp name="ProxyControlGui.include_list"/>
+        <boolProp name="ProxyControlGui.capture_http_headers">true</boolProp>
+        <intProp name="ProxyControlGui.grouping_mode">4</intProp>
+        <boolProp name="ProxyControlGui.add_assertion">false</boolProp>
+        <stringProp name="ProxyControlGui.sampler_type_name"></stringProp>
+        <boolProp name="ProxyControlGui.sampler_redirect_automatically">false</boolProp>
+        <boolProp name="ProxyControlGui.sampler_follow_redirects">true</boolProp>
+        <boolProp name="ProxyControlGui.use_keepalive">true</boolProp>
+        <boolProp name="ProxyControlGui.sampler_download_images">false</boolProp>
+        <boolProp name="ProxyControlGui.regex_match">true</boolProp>
+        <stringProp name="ProxyControlGui.content_type_include"></stringProp>
+        <stringProp name="ProxyControlGui.content_type_exclude"></stringProp>
+        <boolProp name="ProxyControlGui.notify_child_sl_filtered">false</boolProp>
+        <stringProp name="ProxyControlGui.proxy_prefix_http_sampler_name"></stringProp>
+        <intProp name="ProxyControlGui.proxy_http_sampler_naming_mode">1</intProp>
+        <stringProp name="ProxyControlGui.proxy_pause_http_sampler"></stringProp>
+        <boolProp name="ProxyControlGui.detect_graphql_request">true</boolProp>
+        <stringProp name="ProxyControlGui.default_encoding">UTF-8</stringProp>
+      </ProxyControl>
+      <hashTree/>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>
+
+
